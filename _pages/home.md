@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "SNU Global Workforce Lab"
+title: ""
 author_profile: false
 ---
 
