@@ -24,13 +24,12 @@ repository               : "snu-global-workforce-lab/snu-global-workforce-lab.gi
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
-  pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
-  uri              : # URL
-  email            : "none@example.org" 
+  name             : "SNU Global Workforce Developmenet Lab"
+  bio              : "Seoul National University"
+  location         : "Seoul, Korea"
+  employer         : "Seoul National University"
+  uri              : "https://snu-global-workforce-lab.github.io"
+  email            : "shizu@snu.ac.kr" 
 
   # Academic websites
   academia         : # URL
