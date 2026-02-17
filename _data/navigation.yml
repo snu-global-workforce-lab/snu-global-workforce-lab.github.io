@@ -1,17 +1,15 @@
-yml
-
 main:
   - title: "Home"
     url: /
   - title: "Professor"
     url: /professor/
   - title: "People"
-    url: /people/    
+    url: /people/
   - title: "Research & Projects"
     url: /research/
   - title: "Publications"
     url: /publications/
   - title: "News"
-    url: /news/    
+    url: /news/
   - title: "Contact"
-    url: /contact/    
+    url: /contact/
