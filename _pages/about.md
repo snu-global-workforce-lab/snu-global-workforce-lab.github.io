@@ -7,3 +7,4 @@ author_profile: false
 
 history
 content
+self
