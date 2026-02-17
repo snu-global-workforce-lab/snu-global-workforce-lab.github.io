@@ -10,9 +10,9 @@
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
 title       : "SNU Global Workforce Development Lab"
-name        : &name "SNU Global Workforce Development Lab"
-description : &description "Research on workforce development, skills analytics, and evidence-based HR/TVET policy."
-url                      : "https://snu-global-workforce-lab.github.io" # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
+name        : "SNU Global Workforce Development Lab"
+description : "Research on workforce development, skills analytics, and evidence-based HR/TVET policy."
+url         : "https://snu-global-workforce-lab.github.io" # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "snu-global-workforce-lab/snu-global-workforce-lab.github.io"
