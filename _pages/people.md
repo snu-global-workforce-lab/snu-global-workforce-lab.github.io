@@ -56,31 +56,31 @@ author_profile: false
 <div class="people-grid">
 
   <div class="person-card">
-    <img src="/images/people/yang.png" alt="Heesoo Yang">
+    <img src="/images/professor.png" alt="Heesoo Yang">
     <p class="person-name"><strong>Heesoo Yang</strong></p>
     <p class="person-role">Ph.D. Candidate</p>
   </div>
 
   <div class="person-card">
-    <img src="/images/people/lee.png" alt="Minwook Lee">
+    <img src="/images/lee.png" alt="Minwook Lee">
     <p class="person-name"><strong>Minwook Lee</strong></p>
     <p class="person-role">Ph.D. Candidate</p>
   </div>
 
   <div class="person-card">
-    <img src="/images/people/yen.png" alt="Yen">
+    <img src="/images/yen.png" alt="Yen">
     <p class="person-name"><strong>Le Hai Yen</strong></p>
     <p class="person-role">Ph.D. Candidate</p>
   </div>
 
   <div class="person-card">
-    <img src="/images/people/cho.png" alt="Seyoung Cho">
+    <img src="/images/cho.png" alt="Seyoung Cho">
     <p class="person-name"><strong>Seyoung Cho</strong></p>
     <p class="person-role">Ph.D. Student</p>
   </div>
 
   <div class="person-card">
-    <img src="/images/people/park.png" alt="Juwon Park">
+    <img src="/images/park.png" alt="Juwon Park">
     <p class="person-name"><strong>Juwon Park</strong></p>
     <p class="person-role">Ph.D. Student</p>
   </div>
@@ -94,7 +94,7 @@ author_profile: false
 <div class="people-grid">
 
   <div class="person-card">
-    <img src="/images/people/heo.png" alt="Rul Heo">
+    <img src="/images/heo.png" alt="Rul Heo">
     <p class="person-name"><strong>Rul Heo</strong></p>
     <p class="person-role">M.A. Student</p>
   </div>
@@ -108,7 +108,7 @@ author_profile: false
 <div class="people-grid">
 
   <div class="person-card">
-    <img src="/images/people/kim_gohun.png" alt="Gohun Kim">
+    <img src="/images/kim_gohun.png" alt="Gohun Kim">
     <p class="person-name"><strong>Gohun Kim</strong></p>
     <p class="person-role">Ph.D. Student (Part-time)<br>Dahawa Farm</p>
   </div>
@@ -122,7 +122,7 @@ author_profile: false
 <div class="people-grid">
 
   <div class="person-card">
-    <img src="/images/people/fm.png" alt="TBD">
+    <img src="/images/fm.png" alt="TBD">
     <p class="person-name"><strong>TBD</strong></p>
     <p class="person-role">Field Manager</p>
   </div>
@@ -136,25 +136,25 @@ author_profile: false
 <div class="people-grid">
 
   <div class="person-card">
-    <img src="/images/people/jang.png" alt="Eunji Jang">
+    <img src="/images/jang.png" alt="Eunji Jang">
     <p class="person-name"><strong>Eunji Jang</strong></p>
     <p class="person-role">Project Staff</p>
   </div>
 
   <div class="person-card">
-    <img src="/images/people/kwon.png" alt="Youngju Kwon">
+    <img src="/images/kwon.png" alt="Youngju Kwon">
     <p class="person-name"><strong>Youngju Kwon</strong></p>
     <p class="person-role">Project Staff</p>
   </div>
 
   <div class="person-card">
-    <img src="/images/people/shin.png" alt="Hyunyeong Shin">
+    <img src="/images/shin.png" alt="Hyunyeong Shin">
     <p class="person-name"><strong>Hyunyeong Shin</strong></p>
     <p class="person-role">Project Staff</p>
   </div>
 
   <div class="person-card">
-    <img src="/images/people/jeon.png" alt="Jinseon Jeon">
+    <img src="/images/jeon.png" alt="Jinseon Jeon">
     <p class="person-name"><strong>Jinseon Jeon</strong></p>
     <p class="person-role">Project Staff</p>
   </div>
