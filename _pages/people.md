@@ -69,7 +69,7 @@ author_profile: false
 
   <div class="person-card">
     <img src="/images/people/yen.png" alt="Yen">
-    <p class="person-name"><strong>Yen</strong></p>
+    <p class="person-name"><strong>Le Hai Yen</strong></p>
     <p class="person-role">Ph.D. Candidate</p>
   </div>
 
@@ -148,8 +148,8 @@ author_profile: false
   </div>
 
   <div class="person-card">
-    <img src="/images/people/shin.png" alt="Hyungyeong Shin">
-    <p class="person-name"><strong>Hyungyeong Shin</strong></p>
+    <img src="/images/people/shin.png" alt="Hyunyeong Shin">
+    <p class="person-name"><strong>Hyunyeong Shin</strong></p>
     <p class="person-role">Project Staff</p>
   </div>
 
@@ -166,11 +166,11 @@ author_profile: false
 ## Alumni
 
 - **Suhyun Bae, Ph.D.** – Samsung Electronics  
-- **Jakyoung Park** – Jeonbuk Institute  
-- **Sungji Jung** – Pennsylvania State University  
-- **Jisik Min** – Soonchunhyang University  
-- **Guiyoung Ko** – Korea Local Education Administration Institute  
-- **Hyunju Yoo** – Inha University  
+- **Jakyoung Park, Ph.D.** – Jeonbuk Institute  
+- **Sungji Jung, Ph.D.** – Pennsylvania State University  
+- **Jisik Min, Ph.D.** – Soonchunhyang University  
+- **Guiyoung Ko, Ph.D.** – Korea Local Education Administration Institute  
+- **Hyunju Yoo, Ph.D.** – Inha University  
 - **Seokho Hong** – (Current position TBD)  
 - **Jihyun Ahn** – Employed  
 - **Jiyeon Kim** – Ph.D. Program
