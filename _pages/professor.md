@@ -6,7 +6,7 @@ author_profile: false
 
 <div style="display:flex; align-items:center; gap:30px; flex-wrap:wrap; margin-bottom:30px;">
 
-  <img src="/images/professor.png"
+  <img src="/images/professor.jpg"
        alt="Su Jung Choi"
        style="width:200px; border-radius:12px;">
 
