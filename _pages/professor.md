@@ -63,7 +63,7 @@ My research focuses on workforce development, vocational and technical education
 
 ## Government and Policy Engagement
 
-- Member, Taskforce Team for Reform of the Korean Apprenticeship Scheme, Ministry of Employment and Labor (2024–present)  
+- Member, Taskforce Team for Reform of the Korean Apprenticeship Scheme, Ministry of Employment and Labor (2024–2025)  
 - Member, Committee of Workforce Development, Korea Racing Authority (2023–present)  
 - Chairman, Committee for Evaluation of TVET Schools, Ministry of Education (2021–2022)  
 - Taskforce Team Leader, Korean Apprenticeship Scheme Project, Ministry of Employment and Labor (2011–2014)  
