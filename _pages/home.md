@@ -4,6 +4,9 @@ title: ""
 author_profile: false
 ---
 
+
+<img src="/images/banner.png" style="width:100%; height:auto;">
+
 ## Welcome
 The **SNU Global Workforce Lab** is based at **Seoul National University**.
 We conduct research on workforce development, skills analytics, and evidence-based HR/TVET policy in global contexts.
