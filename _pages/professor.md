@@ -43,7 +43,7 @@ author_profile: false
 
 My research focuses on workforce development, vocational and technical education and training (TVET), labor market transitions, occupational change, and policy effectiveness in national and international contexts.
 
-### Selected Courses
+## Selected Courses
 
 **Undergraduate**
 - Principles of Workforce Development and Vocational Education  
@@ -73,7 +73,7 @@ My research focuses on workforce development, vocational and technical education
 
 - Principal External Consultant, Lao PDR Priority Skills for Growth Project, World Bank (2023–present)  
 - Principal Researcher, Strengthening Agricultural Higher Education at VNUHCM (Vietnam), KOICA (2021–2027)
-- External Expert, Cambodia Agricultural Education and Extention Project, KOICA (2024)
+- External Expert, Cambodia Agricultural Education and Extension Project, KOICA (2024)
 - External Expert, Agri-business Incubator Project, FAO (2023)  
 - Project Manager, KOICA University ODA Understanding Project (2016–2017)  
 
