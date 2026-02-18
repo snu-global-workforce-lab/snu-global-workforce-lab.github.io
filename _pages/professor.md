@@ -99,3 +99,5 @@ My research focuses on workforce development, vocational and technical education
 - Vice Chair, SNU Social Responsibility (2023–present)  
 - Director, SNU Faculty Council (2019–present)  
 - Director, Extension College, Seoul National University (2022–present)
+
+---
