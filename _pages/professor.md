@@ -43,6 +43,8 @@ author_profile: false
 
 My research focuses on workforce development, vocational and technical education and training (TVET), labor market transitions, occupational change, and policy effectiveness in national and international contexts.
 
+---
+
 ## Selected Courses
 
 **Undergraduate**
