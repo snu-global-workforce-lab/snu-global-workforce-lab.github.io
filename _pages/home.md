@@ -4,6 +4,72 @@ title: ""
 author_profile: false
 ---
 
+<style>
+/* ===== Research cards (dark/light + hover) ===== */
+.research-card {
+  border-radius: 16px;
+  padding: 22px;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease, background 0.18s ease;
+}
+
+.research-card h3 {
+  margin: 0 0 12px 0;
+  line-height: 1.3;
+}
+
+.research-card p {
+  margin: 0;
+  line-height: 1.6;
+}
+
+/* Keep the link aligned at the bottom, consistently across cards */
+.research-card .card-link {
+  margin-top: auto;
+  padding-top: 16px;
+}
+
+.research-card .card-link a {
+  text-decoration: none;
+}
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+  .research-card {
+    background: #111;
+    border: 1px solid rgba(255,255,255,0.10);
+    color: #e7e7e7;
+    box-shadow: 0 0 0 rgba(0,0,0,0);
+  }
+  .research-card p { color: #cfcfcf; }
+
+  .research-card:hover {
+    transform: translateY(-2px);
+    border-color: rgba(255,255,255,0.18);
+    box-shadow: 0 10px 26px rgba(0,0,0,0.35);
+  }
+}
+
+/* Light mode */
+@media (prefers-color-scheme: light) {
+  .research-card {
+    background: #f4f4f4;
+    border: 1px solid #e0e0e0;
+    color: #222;
+    box-shadow: 0 0 0 rgba(0,0,0,0);
+  }
+  .research-card p { color: #444; }
+
+  .research-card:hover {
+    transform: translateY(-2px);
+    background: #efefef;
+    border-color: #d2d2d2;
+    box-shadow: 0 10px 26px rgba(0,0,0,0.12);
+  }
+}
+</style>
+
 <!-- 1) Banner -->
 <p style="margin: 0 0 28px 0;">
   <img src="/images/banner.png" alt="SNU Global Workforce Development Lab banner"
@@ -15,55 +81,53 @@ author_profile: false
   <p style="font-size: 1.05rem; line-height: 1.65; margin: 0;">
     Welcome to the <strong>SNU Global Workforce Development Lab</strong> at Seoul National University.<br>
     We conduct rigorous quantitative research on education, workforce development, and labor market dynamics.<br>
-    Our work informs educational policy reform and development cooperation through evidence and impact evaluation.
+    Our work informs policy reform and development cooperation in education through evidence and impact evaluation.
   </p>
 </div>
+
 <!-- 3) Research Themes -->
-<div style="max-width: 1100px; margin: 0 auto;">
-  <h2 style="margin: 0 0 14px 0;">Research Themes</h2>
+<div style="max-width: 1200px; margin: 0 auto;">
+  <h2 style="margin: 0 0 18px 0;">Research Themes</h2>
 
   <div style="
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 16px;
+    gap: 20px;
   ">
 
     <!-- Card 1 -->
-    <div style="background:#111; border:1px solid rgba(255,255,255,0.10);
-                border-radius:16px; padding:18px;">
-      <h3 style="margin:0 0 8px 0;">TVET &amp; Policy Reform</h3>
-      <p style="margin:0; line-height:1.55; color:#cfcfcf;">
+    <div class="research-card">
+      <h3 style="font-size:1.22rem;">TVET &amp; Policy Reform</h3>
+      <p>
         Institutional change and impact evaluation in education and TVET systems,
         including individual labor-market transitions and growth trajectories.
       </p>
-      <div style="margin-top:12px;">
-        <a href="/research/" style="text-decoration:none;">Learn more →</a>
+      <div class="card-link">
+        <a href="/research/">Learn more →</a>
       </div>
     </div>
 
     <!-- Card 2 -->
-    <div style="background:#111; border:1px solid rgba(255,255,255,0.10);
-                border-radius:16px; padding:18px;">
-      <h3 style="margin:0 0 8px 0;">Occupations &amp; Work</h3>
-      <p style="margin:0; line-height:1.55; color:#cfcfcf;">
+    <div class="research-card">
+      <h3 style="font-size:1.22rem;">Occupations &amp; Work</h3>
+      <p>
         How AI and population aging reshape occupations, tasks, and labor markets—
         mapping change and identifying emerging skill demands.
       </p>
-      <div style="margin-top:12px;">
-        <a href="/research/" style="text-decoration:none;">Learn more →</a>
+      <div class="card-link">
+        <a href="/research/">Learn more →</a>
       </div>
     </div>
 
     <!-- Card 3 -->
-    <div style="background:#111; border:1px solid rgba(255,255,255,0.10);
-                border-radius:16px; padding:18px;">
-      <h3 style="margin:0 0 8px 0;">Development Cooperation</h3>
-      <p style="margin:0; line-height:1.55; color:#cfcfcf;">
+    <div class="research-card">
+      <h3 style="font-size:1.18rem;">Development Cooperation</h3>
+      <p>
         Collaborative projects in education and TVET with international partners
         such as the World Bank, KOICA, and FAO—translating evidence into practice.
       </p>
-      <div style="margin-top:12px;">
-        <a href="/research/" style="text-decoration:none;">Learn more →</a>
+      <div class="card-link">
+        <a href="/research/">Learn more →</a>
       </div>
     </div>
 
