@@ -5,59 +5,63 @@ author_profile: false
 ---
 
 <style>
-/* ===== Base (Dark default) ===== */
+/* ===== Research grid ===== */
+.research-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 20px;
+}
+
+/* ===== Research cards (neutral style for both light & dark themes) ===== */
 .research-card {
   border-radius: 16px;
   padding: 22px;
   display: flex;
   flex-direction: column;
-  background: #111;
-  border: 1px solid rgba(255,255,255,0.10);
-  color: #e7e7e7;
-  transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease, background 0.18s ease;
-}
 
-.research-card p {
-  color: #cfcfcf;
-  margin: 0;
-  line-height: 1.6;
-}
+  background: rgba(128, 128, 128, 0.14);
+  border: 1px solid rgba(128, 128, 128, 0.28);
 
-.research-card .card-link {
-  margin-top: auto;
-  padding-top: 16px;
+  transition: transform 0.18s ease,
+              box-shadow 0.18s ease,
+              background 0.18s ease,
+              border-color 0.18s ease;
 }
 
 .research-card:hover {
   transform: translateY(-2px);
-  border-color: rgba(255,255,255,0.18);
-  box-shadow: 0 10px 26px rgba(0,0,0,0.35);
+  background: rgba(128, 128, 128, 0.18);
+  border-color: rgba(128, 128, 128, 0.36);
+  box-shadow: 0 10px 26px rgba(0,0,0,0.18);
 }
 
-/* ===== Light override ===== */
-html[data-theme="light"] .research-card,
-body.light .research-card {
-  background: #f4f4f4;
-  border: 1px solid #e0e0e0;
-  color: #222;
+.research-card h3 {
+  margin: 0 0 12px 0;
+  line-height: 1.3;
 }
 
-html[data-theme="light"] .research-card p,
-body.light .research-card p {
-  color: #444;
+.research-card p {
+  margin: 0;
+  line-height: 1.6;
+  opacity: 0.88;
+
+  /* keeps link rows roughly aligned */
+  min-height: 5.6em;
 }
 
-html[data-theme="light"] .research-card:hover,
-body.light .research-card:hover {
-  background: #efefef;
-  border-color: #d2d2d2;
-  box-shadow: 0 10px 26px rgba(0,0,0,0.12);
+.research-card .card-link {
+  margin-top: 14px;
+}
+
+.research-card .card-link a {
+  text-decoration: none;
 }
 </style>
 
 <!-- 1) Banner -->
 <p style="margin: 0 0 28px 0;">
-  <img src="/images/banner.png" alt="SNU Global Workforce Development Lab banner"
+  <img src="/images/banner.png"
+       alt="SNU Global Workforce Development Lab banner"
        style="width:100%; height:auto; border-radius:14px;">
 </p>
 
@@ -74,11 +78,7 @@ body.light .research-card:hover {
 <div style="max-width: 1200px; margin: 0 auto;">
   <h2 style="margin: 0 0 18px 0;">Research Themes</h2>
 
-  <div style="
-    display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 20px;
-  ">
+  <div class="research-grid">
 
     <!-- Card 1 -->
     <div class="research-card">
