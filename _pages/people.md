@@ -56,7 +56,7 @@ author_profile: false
 <div class="people-grid">
 
   <div class="person-card">
-    <img src="/images/professor.png" alt="Heesoo Yang">
+    <img src="/images/professor.jpg" alt="Heesoo Yang">
     <p class="person-name"><strong>Heesoo Yang</strong></p>
     <p class="person-role">Ph.D. Candidate</p>
   </div>
