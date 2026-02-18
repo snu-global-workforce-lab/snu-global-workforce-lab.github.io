@@ -109,7 +109,7 @@ author_profile: false
       <h3 style="font-size:1.18rem;">Development Cooperation</h3>
       <p>
         Collaborative projects in education and TVET with international partners
-        such as the World Bank, KOICA, and FAO—translating evidence into practice.
+        such as the World Bank, FAO, and KOICA—translating evidence into practice.
       </p>
       <div class="card-link">
         <a href="/research/">Learn more →</a>
