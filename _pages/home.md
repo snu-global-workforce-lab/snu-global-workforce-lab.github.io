@@ -5,68 +5,53 @@ author_profile: false
 ---
 
 <style>
-/* ===== Research cards (dark/light + hover) ===== */
+/* ===== Base (Dark default) ===== */
 .research-card {
   border-radius: 16px;
   padding: 22px;
   display: flex;
   flex-direction: column;
+  background: #111;
+  border: 1px solid rgba(255,255,255,0.10);
+  color: #e7e7e7;
   transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease, background 0.18s ease;
 }
 
-.research-card h3 {
-  margin: 0 0 12px 0;
-  line-height: 1.3;
-}
-
 .research-card p {
+  color: #cfcfcf;
   margin: 0;
   line-height: 1.6;
 }
 
-/* Keep the link aligned at the bottom, consistently across cards */
 .research-card .card-link {
   margin-top: auto;
   padding-top: 16px;
 }
 
-.research-card .card-link a {
-  text-decoration: none;
+.research-card:hover {
+  transform: translateY(-2px);
+  border-color: rgba(255,255,255,0.18);
+  box-shadow: 0 10px 26px rgba(0,0,0,0.35);
 }
 
-/* Dark mode */
-@media (prefers-color-scheme: dark) {
-  .research-card {
-    background: #111;
-    border: 1px solid rgba(255,255,255,0.10);
-    color: #e7e7e7;
-    box-shadow: 0 0 0 rgba(0,0,0,0);
-  }
-  .research-card p { color: #cfcfcf; }
-
-  .research-card:hover {
-    transform: translateY(-2px);
-    border-color: rgba(255,255,255,0.18);
-    box-shadow: 0 10px 26px rgba(0,0,0,0.35);
-  }
+/* ===== Light override ===== */
+html[data-theme="light"] .research-card,
+body.light .research-card {
+  background: #f4f4f4;
+  border: 1px solid #e0e0e0;
+  color: #222;
 }
 
-/* Light mode */
-@media (prefers-color-scheme: light) {
-  .research-card {
-    background: #f4f4f4;
-    border: 1px solid #e0e0e0;
-    color: #222;
-    box-shadow: 0 0 0 rgba(0,0,0,0);
-  }
-  .research-card p { color: #444; }
+html[data-theme="light"] .research-card p,
+body.light .research-card p {
+  color: #444;
+}
 
-  .research-card:hover {
-    transform: translateY(-2px);
-    background: #efefef;
-    border-color: #d2d2d2;
-    box-shadow: 0 10px 26px rgba(0,0,0,0.12);
-  }
+html[data-theme="light"] .research-card:hover,
+body.light .research-card:hover {
+  background: #efefef;
+  border-color: #d2d2d2;
+  box-shadow: 0 10px 26px rgba(0,0,0,0.12);
 }
 </style>
 
