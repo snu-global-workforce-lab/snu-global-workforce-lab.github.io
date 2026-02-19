@@ -27,9 +27,7 @@ author_profile: false
 }
 .news-thumb{
   width:100%;
-  height:240px;              /* 150 → 240으로 증가 */
-  object-fit:cover;
-  object-position:center;    /* 중앙 기준으로 자르기 */
+  height:auto;
   display:block;
 }
 .news-body{
