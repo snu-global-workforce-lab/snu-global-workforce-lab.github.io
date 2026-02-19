@@ -132,3 +132,20 @@ author_profile: false
     {% endfor %}
   </div>
 </details>
+
+<hr>
+<p><strong>DEBUG</strong></p>
+<p>Total posts: {{ site.posts | size }}</p>
+<p>News category posts: {{ site.categories.news | size }}</p>
+
+<ul>
+{% for p in site.posts %}
+  <li>
+    {{ p.date | date: "%Y-%m-%d" }} —
+    <strong>{{ p.title }}</strong>
+    | categories: {{ p.categories | join: ", " }}
+    | file: {{ p.path }}
+  </li>
+{% endfor %}
+</ul>
+<hr>
