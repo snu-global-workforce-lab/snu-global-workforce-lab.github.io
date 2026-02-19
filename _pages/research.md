@@ -63,36 +63,37 @@ author_profile: false
 /* =========================
    Project Cards (compact)
    ========================= */
-
 .project-card{
   border-radius:14px;
   padding:12px 16px;
-  margin:12px 0;
+  margin:22px 0;              /* 🔹 카드 간격 넓힘 */
   background: rgba(128,128,128,0.12);
   border:1px solid rgba(128,128,128,0.24);
   transition: transform 0.18s ease, box-shadow 0.18s ease;
-  font-size: 0.8em;
-  line-height: 1.35;     /* 🔹 전체 줄간격 축소 */
+  font-size:0.8em;
+  line-height:1.25;            /* 🔹 전체 줄간격 더 압축 */
 }
 
 .project-title{
-  margin:0 0 3px 0;
-  line-height:1.25;      /* 🔹 제목 더 타이트 */
+  margin:0 0 2px 0;            /* 🔹 타이틀 아래 거의 붙게 */
+  line-height:1.15;            /* 🔹 타이틀 자체도 촘촘 */
+  font-weight:600;
 }
 
 .project-meta{
-  margin:0 0 4px 0;
-  line-height:1.25;
+  margin:0 0 6px 0;            /* 🔹 메타 아래는 조금 여유 */
+  line-height:1.2;
+  opacity:0.8;
 }
 
 .project-desc{
   margin:0 0 6px 0;
-  line-height:1.4;       /* 🔹 설명도 타이트 */
+  line-height:1.35;            /* 🔹 설명은 약간만 여유 */
 }
 
 .tag-row{
   margin-top:4px;
-}
+}   
    
 .tag{
   font-size:0.7rem;
