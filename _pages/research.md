@@ -16,33 +16,34 @@ author_profile: false
   gap:22px;
   margin: 18px 0 30px 0;
 }
-
 .theme-card{
   border-radius:18px;
   padding:22px;
-  background: rgba(128,128,128,0.14);
-  border: 1px solid rgba(128,128,128,0.28);
-  transition: transform 0.18s ease, box-shadow 0.18s ease;
+  background: #141414;                  /* 부드러운 차콜 */
+  border: 1px solid rgba(255,255,255,0.08);
+  color: #d9d9d9;
+  transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
 }
 
 .theme-card:hover{
   transform: translateY(-2px);
-  box-shadow: 0 10px 22px rgba(0,0,0,0.15);
+  box-shadow: 0 12px 24px rgba(0,0,0,0.35);
+  border-color: rgba(255,255,255,0.15);
 }
 
 .theme-title{
   margin:0 0 10px 0;
   font-size:1.35rem;
   line-height:1.25;
+  color:#ffffff;
 }
 
 .theme-desc{
   margin:0;
   font-size:0.95rem;
   line-height:1.6;
-  opacity:0.9;
+  color:#cfcfcf;
 }
-
 
 /* =========================
    Project Cards (납작, 작은 폰트)
