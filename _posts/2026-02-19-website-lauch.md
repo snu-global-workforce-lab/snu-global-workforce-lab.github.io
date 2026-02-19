@@ -4,7 +4,7 @@ date: 2026-02-19
 categories: [news]
 excerpt: "Our new lab website is up and running. We’ll be sharing project updates, publications, and opportunities here."
 header:
-  teaser: /images/news/website-launch.jpg
+  teaser: /images/news/website-launch.jpeg
 ---
 
 We’re excited to share that the SNU Global Workforce Development Lab website is officially live.
