@@ -58,18 +58,18 @@ author_profile: false
   line-height:0.80;
 }
 .project-title-kr{
-  font-size:1.02rem;
+  font-size:0.9rem;
   font-weight:700;
   margin:0;
 }
 .project-title-en{
-  font-size:0.9rem;
+  font-size:0.8rem;
   font-style:italic;
   opacity:0.75;
   margin:0;
 }
 .project-meta{
-  font-size:0.88rem;
+  font-size:0.7rem;
   opacity:0.85;
   margin:1px 0 0 0;
 }
@@ -85,7 +85,7 @@ author_profile: false
   border-radius:4px;
   background: rgba(100,100,100,0.14);
   border:1px solid rgba(120,120,120,0.22);
-  font-size:0.75rem;
+  font-size:0.6rem;
 }
 </style>
 
