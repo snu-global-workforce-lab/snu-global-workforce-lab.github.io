@@ -66,44 +66,34 @@ author_profile: false
 
 .project-card{
   border-radius:14px;
-  padding:14px 18px;
-  margin:14px 0;
+  padding:12px 16px;
+  margin:12px 0;
   background: rgba(128,128,128,0.12);
   border:1px solid rgba(128,128,128,0.24);
   transition: transform 0.18s ease, box-shadow 0.18s ease;
-  font-size: 0.8em;     /* 🔹 전체 폰트 80% */
-}
-   
-.project-card:hover{
-  transform: translateY(-1px);
-  box-shadow: 0 8px 18px rgba(0,0,0,0.12);
+  font-size: 0.8em;
+  line-height: 1.35;     /* 🔹 전체 줄간격 축소 */
 }
 
 .project-title{
-  margin:0 0 4px 0;
-  font-size:1rem;
-  line-height:1.35;
+  margin:0 0 3px 0;
+  line-height:1.25;      /* 🔹 제목 더 타이트 */
 }
 
 .project-meta{
-  margin:0 0 6px 0;
-  font-size:0.82rem;
-  opacity:0.8;
+  margin:0 0 4px 0;
+  line-height:1.25;
 }
 
 .project-desc{
-  margin:0 0 8px 0;
-  font-size:0.85rem;
-  line-height:1.5;
-  opacity:0.9;
+  margin:0 0 6px 0;
+  line-height:1.4;       /* 🔹 설명도 타이트 */
 }
 
 .tag-row{
-  display:flex;
-  flex-wrap:wrap;
-  gap:6px;
+  margin-top:4px;
 }
-
+   
 .tag{
   font-size:0.7rem;
   padding:2px 7px;
