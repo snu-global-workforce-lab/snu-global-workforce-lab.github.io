@@ -51,11 +51,11 @@ author_profile: false
    ========================= */
 .project-card{
   border-radius:12px;
-  padding:10px 18px;
-  margin:18px 0 24px 0;
+  padding:18px 18px;
+  margin:12px 0 16px 0;
   background: rgba(128,128,128,0.07);
   border:1px solid rgba(128,128,128,0.18);
-  line-height:0.30;
+  line-height:1.05;
 }
 .project-title-kr{
   font-size:0.9rem;
