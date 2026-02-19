@@ -155,7 +155,7 @@ author_profile: false
   </div>
 
   <div class="person-card">
-    <img src="{{ '/images/heesu.png' | relative_url }}" alt="Jinseon Jeon">
+    <img src="{{ '/images/jinseon.png' | relative_url }}" alt="Jinseon Jeon">
     <p class="person-name"><strong>Jinseon Jeon</strong></p>
     <p class="person-role">Project Staff</p>
   </div>
