@@ -57,13 +57,13 @@ author_profile: false
 <div class="people-grid">
 
   <div class="person-card">
-    <img src="{{ '/images/heesu.png' | relative_url }}" alt="Heesoo Yang">
+    <img src="{{ '/images/heesu.jpeg' | relative_url }}" alt="Heesoo Yang">
     <p class="person-name"><strong>Heesoo Yang</strong></p>
     <p class="person-role">Ph.D. Candidate</p>
   </div>
 
   <div class="person-card">   
-    <img src="{{ '/images/heesu.png' | relative_url }}" alt="Minwook Lee">
+    <img src="{{ '/images/minwook.png' | relative_url }}" alt="Minwook Lee">
     <p class="person-name"><strong>Minwook Lee</strong></p>
     <p class="person-role">Ph.D. Candidate</p>
   </div>
@@ -75,13 +75,13 @@ author_profile: false
   </div>
 
   <div class="person-card">
-    <img src="{{ '/images/heesu.png' | relative_url }}" alt="Seyoung Cho">
+    <img src="{{ '/images/seyoung.jpeg' | relative_url }}" alt="Seyoung Cho">
     <p class="person-name"><strong>Seyoung Cho</strong></p>
     <p class="person-role">Ph.D. Student</p>
   </div>
 
   <div class="person-card">
-    <img src="{{ '/images/heesu.png' | relative_url }}" alt="Juwon Park">
+    <img src="{{ '/images/juwon.jpeg' | relative_url }}" alt="Juwon Park">
     <p class="person-name"><strong>Juwon Park</strong></p>
     <p class="person-role">Ph.D. Student</p>
   </div>
@@ -95,7 +95,7 @@ author_profile: false
 <div class="people-grid">
 
   <div class="person-card">
-    <img src="{{ '/images/heesu.png' | relative_url }}" alt="Rul Heo">
+    <img src="{{ '/images/ryul.jpeg' | relative_url }}" alt="Ryul Heo">
     <p class="person-name"><strong>Rul Heo</strong></p>
     <p class="person-role">M.A. Student</p>
   </div>
@@ -137,19 +137,19 @@ author_profile: false
 <div class="people-grid">
 
   <div class="person-card">
-    <img src="{{ '/images/heesu.png' | relative_url }}" alt="Eunji Jang">
+    <img src="{{ '/images/eunji.jpeg' | relative_url }}" alt="Eunji Jang">
     <p class="person-name"><strong>Eunji Jang</strong></p>
     <p class="person-role">Project Staff</p>
   </div>
 
   <div class="person-card">
-    <img src="{{ '/images/heesu.png' | relative_url }}" alt="Youngju Kwon">
+    <img src="{{ '/images/youngjoo.jpeg' | relative_url }}" alt="Youngjoo Kwon">
     <p class="person-name"><strong>Youngju Kwon</strong></p>
     <p class="person-role">Project Staff</p>
   </div>
 
   <div class="person-card">
-    <img src="{{ '/images/heesu.png' | relative_url }}" alt="Hyunyeong Shin">
+    <img src="{{ '/images/hyunyung.jpeg' | relative_url }}" alt="Hyunyung Shin">
     <p class="person-name"><strong>Hyunyeong Shin</strong></p>
     <p class="person-role">Project Staff</p>
   </div>
