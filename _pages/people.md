@@ -27,13 +27,14 @@ author_profile: false
 }
 
 .person-card img {
-  width: 140px;
-  height: 140px;
+  width: 180px;
+  aspect-ratio: 3 / 4;     /* 세로형 증명사진 비율 */
   object-fit: cover;
-  border-radius: 50%;
+  border-radius: 10px;
   margin-bottom: 14px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.12);
 }
-
+  
 .person-name {
   margin: 6px 0 4px 0;
   font-size: 1.05rem;
