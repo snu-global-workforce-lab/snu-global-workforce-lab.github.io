@@ -5,143 +5,151 @@ author_profile: false
 ---
 
 <style>
-/* shared card style (works across day/night themes without theme detection) */
-.card-grid{
-  display:grid;
-  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-  gap:20px;
-  margin: 14px 0 26px 0;
-}
-.card{
+.project-card{
   border-radius:16px;
-  padding:20px;
+  padding:24px;
+  margin: 18px 0;
   background: rgba(128,128,128,0.14);
   border: 1px solid rgba(128,128,128,0.28);
   transition: transform 0.18s ease, box-shadow 0.18s ease, background 0.18s ease, border-color 0.18s ease;
 }
-.card:hover{
+
+.project-card:hover{
   transform: translateY(-2px);
   background: rgba(128,128,128,0.18);
   border-color: rgba(128,128,128,0.36);
-  box-shadow: 0 10px 26px rgba(0,0,0,0.18);
+  box-shadow: 0 12px 28px rgba(0,0,0,0.18);
 }
-.card-title{ margin:0 0 10px 0; font-size:1.12rem; line-height:1.3; }
-.card-meta{ margin:0 0 10px 0; opacity:0.85; }
-.card-desc{ margin:0; line-height:1.6; opacity:0.88; }
-.tag-row{ margin-top:12px; display:flex; gap:8px; flex-wrap:wrap; }
-.tag{
-  font-size:0.82rem;
-  padding:4px 10px;
-  border-radius:999px;
-  border:1px solid rgba(128,128,128,0.35);
-  background: rgba(128,128,128,0.10);
+
+.project-title{
+  margin:0 0 6px 0;
+  font-size:1.2rem;
+  line-height:1.35;
 }
-.section{ margin-top: 34px; }
+
+.project-meta{
+  margin:0 0 12px 0;
+  opacity:0.85;
+  font-size:0.95rem;
+}
+
+.project-desc{
+  margin:0;
+  line-height:1.65;
+  opacity:0.9;
+}
+
+.year-title{
+  margin-top: 34px;
+}
 </style>
 
-<p style="max-width: 980px; margin: 0 auto 10px auto; line-height:1.7;">
-We study how education and workforce development shape labor-market outcomes and social progress.
-Our work combines quantitative analysis, occupational research, and policy evaluation—often in international and development-cooperation contexts.
+<p style="max-width: 900px; line-height:1.7;">
+Our research examines how education and workforce development systems shape labor market outcomes and institutional transformation.  
+We combine quantitative analysis, occupational research, and policy evaluation in national and international contexts.
 </p>
 
-<div class="section"></div>
+---
 
 ## Research Themes
 
-<div class="card-grid">
+- **TVET & Policy Reform** — Institutional change and impact evaluation in education and TVET systems.  
+- **Occupations & Work** — AI, aging, and structural shifts in tasks and labor markets.  
+- **Development Cooperation** — Evidence-based policy design in collaboration with international organizations.
 
-  <div class="card">
-    <p class="card-title"><strong>TVET &amp; Policy Reform</strong></p>
-    <p class="card-desc">
-      Institutional change and impact evaluation in education and TVET systems, including labor-market transitions and growth trajectories.
-    </p>
-    <div class="tag-row">
-      <span class="tag">Institutional change</span>
-      <span class="tag">Impact evaluation</span>
-      <span class="tag">Labor-market transitions</span>
-    </div>
-  </div>
+---
 
-  <div class="card">
-    <p class="card-title"><strong>Occupations &amp; Work</strong></p>
-    <p class="card-desc">
-      How AI and population aging reshape occupations, tasks, and labor markets—mapping change and identifying emerging skill demands.
-    </p>
-    <div class="tag-row">
-      <span class="tag">AI &amp; tasks</span>
-      <span class="tag">Aging workforce</span>
-      <span class="tag">Skills demand</span>
-    </div>
-  </div>
+## 2026
 
-  <div class="card">
-    <p class="card-title"><strong>Development Cooperation</strong></p>
-    <p class="card-desc">
-      Collaborative projects in education and TVET with partners such as the World Bank, KOICA, and FAO—translating evidence into practice.
-    </p>
-    <div class="tag-row">
-      <span class="tag">Capacity building</span>
-      <span class="tag">TVET systems</span>
-      <span class="tag">Global partnerships</span>
-    </div>
-  </div>
+<!-- Add 2026 projects here as they arise -->
+<!-- Example:
+<div class="project-card">
+  <p class="project-title"><strong>Project Title</strong></p>
+  <p class="project-meta">2026 · Partner/Funder · Role</p>
+  <p class="project-desc">One–two sentence description.</p>
+</div>
+-->
 
+---
+
+## 2025
+
+<!-- Add 2025 projects here -->
+<!-- If a project spans years, list it in the start year OR the year you want to highlight most.
+     (Most labs use the start year for consistency.) -->
+
+---
+
+## 2024 and earlier
+
+<div class="project-card">
+  <p class="project-title"><strong>Lao PDR Priority Skills for Growth</strong></p>
+  <p class="project-meta">2023–present · World Bank · Principal External Consultant</p>
+  <p class="project-desc">
+    Supporting priority skills initiatives through institutional planning, equipment utilization strategies, and evidence-based implementation.
+  </p>
 </div>
 
-<div class="section"></div>
-
-## Active Projects
-
-<div class="card-grid">
-
-  <div class="card">
-    <p class="card-title"><strong>Lao PDR Priority Skills for Growth</strong></p>
-    <p class="card-meta">2023–present · World Bank · Principal External Consultant</p>
-    <p class="card-desc">
-      Supporting the design and implementation of priority skills initiatives through evidence-based planning, capacity development, and utilization strategies.
-    </p>
-    <div class="tag-row">
-      <span class="tag">TVET</span>
-      <span class="tag">Skills policy</span>
-      <span class="tag">Implementation support</span>
-    </div>
-  </div>
-
-  <div class="card">
-    <p class="card-title"><strong>Strengthening Agricultural Higher Education (VNUHCM, Vietnam)</strong></p>
-    <p class="card-meta">2021–2027 · KOICA · Principal Researcher</p>
-    <p class="card-desc">
-      Building institutional capacity in agricultural higher education through curriculum enhancement, workforce development, and training system improvement.
-    </p>
-    <div class="tag-row">
-      <span class="tag">Higher education</span>
-      <span class="tag">Capacity building</span>
-      <span class="tag">Workforce development</span>
-    </div>
-  </div>
-
-  <div class="card">
-    <p class="card-title"><strong>Agri-business Incubator</strong></p>
-    <p class="card-meta">2023 · FAO · External Expert</p>
-    <p class="card-desc">
-      Providing technical advice to strengthen incubation and training approaches for agribusiness and skills development.
-    </p>
-    <div class="tag-row">
-      <span class="tag">Agribusiness</span>
-      <span class="tag">Training models</span>
-      <span class="tag">Technical assistance</span>
-    </div>
-  </div>
-
+<div class="project-card">
+  <p class="project-title"><strong>Strengthening Agricultural Higher Education (VNUHCM, Vietnam)</strong></p>
+  <p class="project-meta">2021–2027 · KOICA · Principal Researcher</p>
+  <p class="project-desc">
+    Enhancing agricultural higher education capacity through curriculum reform, faculty development, and workforce system alignment.
+  </p>
 </div>
 
-<div class="section"></div>
+<div class="project-card">
+  <p class="project-title"><strong>Agri-business Incubator</strong></p>
+  <p class="project-meta">2023 · FAO · External Expert</p>
+  <p class="project-desc">
+    Providing technical expertise to strengthen agribusiness incubation models and vocational training approaches.
+  </p>
+</div>
 
-## Selected Past Projects
+<div class="project-card">
+  <p class="project-title"><strong>Delegation Expert: TVET policy advice for digital transformation (Thailand)</strong></p>
+  <p class="project-meta">2021 · KDI · Delegation Expert</p>
+  <p class="project-desc">
+    Advising on TVET policy and system adaptation for digital transformation in a development cooperation context.
+  </p>
+</div>
 
-- **Holeta Polytechnic College (Ethiopia): Organizational Capacity Diagnosis and Strategy Development** (2019) — KDI  
-- **Agricultural Workforce Development Cooperation in Developing Countries (I)** (2020) — Ministry of Agriculture, Food and Rural Affairs (Korea)  
-- **Agricultural Workforce Development Cooperation in Developing Countries (II)** (2021) — Ministry of Agriculture, Food and Rural Affairs (Korea)  
-- **Delegation Expert: TVET policy advice for digital transformation (Thailand)** (2021) — KDI  
-- **Post-evaluation: Philippines HRD Center Building Project** (2017) — Evaluation Expert (TVET)  
-- **KOICA University Project: Understanding of ODA** (2016–2017) — Project Manager  
+<div class="project-card">
+  <p class="project-title"><strong>Agricultural Workforce Development Cooperation in Developing Countries (II)</strong></p>
+  <p class="project-meta">2021 · Ministry of Agriculture, Food and Rural Affairs (Korea) · Principal Researcher</p>
+  <p class="project-desc">
+    Developing cooperation strategies and evidence frameworks for agricultural workforce development in partner countries.
+  </p>
+</div>
+
+<div class="project-card">
+  <p class="project-title"><strong>Agricultural Workforce Development Cooperation in Developing Countries (I)</strong></p>
+  <p class="project-meta">2020 · Ministry of Agriculture, Food and Rural Affairs (Korea) · Principal Researcher</p>
+  <p class="project-desc">
+    Establishing models and policy directions for agricultural workforce development cooperation.
+  </p>
+</div>
+
+<div class="project-card">
+  <p class="project-title"><strong>Organizational Capacity Diagnosis and Strategy Development (Holeta Polytechnic College, Ethiopia)</strong></p>
+  <p class="project-meta">2019 · KDI · Principal Researcher</p>
+  <p class="project-desc">
+    Conducting institutional diagnosis and proposing strategic recommendations for capacity development.
+  </p>
+</div>
+
+<div class="project-card">
+  <p class="project-title"><strong>Post-evaluation: Philippines HRD Center Building Project (TVET)</strong></p>
+  <p class="project-meta">2017 · Evaluation Expert</p>
+  <p class="project-desc">
+    Conducting post-evaluation with a focus on vocational education and training components and outcomes.
+  </p>
+</div>
+
+<div class="project-card">
+  <p class="project-title"><strong>KOICA University Project: Understanding of ODA</strong></p>
+  <p class="project-meta">2016–2017 · KOICA · Project Manager</p>
+  <p class="project-desc">
+    Managing project implementation and coordination for university-based ODA capacity-building.
+  </p>
+</div>
