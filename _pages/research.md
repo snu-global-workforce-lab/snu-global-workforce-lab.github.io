@@ -71,8 +71,9 @@ author_profile: false
   background: rgba(128,128,128,0.12);
   border:1px solid rgba(128,128,128,0.24);
   transition: transform 0.18s ease, box-shadow 0.18s ease;
+  font-size: 0.8em;     /* 🔹 전체 폰트 80% */
 }
-
+   
 .project-card:hover{
   transform: translateY(-1px);
   box-shadow: 0 8px 18px rgba(0,0,0,0.12);
