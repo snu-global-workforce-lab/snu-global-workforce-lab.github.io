@@ -9,31 +9,30 @@ author_profile: false
 /* =========================
    Research Themes (3 fixed cards)
    ========================= */
-
 .theme-grid{
   display:grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 1fr 1fr 1fr;   /* 강제 3열 */
   gap:22px;
   margin: 18px 0 34px 0;
 }
 
-@media (max-width: 900px){
+@media (max-width: 1000px){
   .theme-grid{
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr;         /* 모바일만 1열 */
   }
 }
 
 .theme-card{
   border-radius:18px;
   padding:22px;
-  background:#141414;
-  border:1px solid rgba(255,255,255,0.08);
+  background:#1c1f24;                   /* 세련된 다크그레이 */
+  border:1px solid rgba(255,255,255,0.06);
   transition: transform 0.18s ease, box-shadow 0.18s ease, background 0.18s ease;
 }
 
 .theme-card:hover{
   transform: translateY(-2px);
-  background:#1c1c1c;
+  background:#23272e;
   box-shadow: 0 12px 24px rgba(0,0,0,0.35);
 }
 
@@ -48,20 +47,19 @@ author_profile: false
   margin:0 0 18px 0;
   font-size:1rem;
   line-height:1.7;
-  color:#cfcfcf;
+  color:#c8cdd3;                        /* 더 세련된 라이트그레이 */
 }
 
 .theme-link{
   font-size:1.05rem;
-  color:#4aa3c6;
+  color:#5db3d1;                        /* 차분한 블루 */
   text-decoration:none;
 }
 
 .theme-link:hover{
   text-decoration:underline;
 }
-
-
+   
 /* =========================
    Project Cards (compact)
    ========================= */
