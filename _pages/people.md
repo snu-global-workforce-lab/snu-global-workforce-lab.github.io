@@ -149,7 +149,7 @@ author_profile: false
   </div>
 
   <div class="person-card">
-    <img src="{{ '/images/hyunyung.jpeg' | relative_url }}" alt="Hyunyung Shin">
+    <img src="{{ '/images/hyunkyung.jpeg' | relative_url }}" alt="Hyunkyung Shin">
     <p class="person-name"><strong>Hyunyeong Shin</strong></p>
     <p class="person-role">Project Staff</p>
   </div>
