@@ -61,14 +61,14 @@ author_profile: false
 <!-- 1) Banner -->
 <p style="margin: 0 0 28px 0;">
   <img src="/images/banner.png"
-       alt="SNU Global Workforce Development Lab banner"
+       alt="SNU International Development Cooperation in VEWD Lab banner"
        style="width:100%; height:auto; border-radius:14px;">
 </p>
 
 <!-- 2) Welcome Message -->
 <div style="max-width: 980px; margin: 0 auto 26px auto;">
   <p style="font-size: 1.05rem; line-height: 1.65; margin: 0;">
-    Welcome to the <strong>SNU Global Workforce Development Lab</strong> at Seoul National University.<br>
+    Welcome to the <strong>International Development Cooperation in VEWD(Vocational Education and Workforce Development) Lab</strong> at Seoul National University.<br>
     We conduct rigorous quantitative research on education, workforce development, and labor market dynamics.<br>
     Our work informs policy reform and development cooperation in education through evidence and impact evaluation.
   </p>
