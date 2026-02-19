@@ -114,7 +114,6 @@ author_profile: false
   <p class="project-meta">• KOICA · 2023–2029</p>
   <div class="tag-row">
     <span class="tag">Development Cooperation</span>
-    <span class="tag">TVET &amp; Policy Reform</span>
   </div>
 </div>
 
