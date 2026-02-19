@@ -55,7 +55,7 @@ author_profile: false
   margin:18px 0 24px 0;
   background: rgba(128,128,128,0.07);
   border:1px solid rgba(128,128,128,0.18);
-  line-height:0.80;
+  line-height:0.30;
 }
 .project-title-kr{
   font-size:0.9rem;
