@@ -81,11 +81,11 @@ author_profile: false
 }
 .tag{
   display:inline-block;
-  padding:3px 7px;
+  padding:5px 10px;
   border-radius:4px;
   background: rgba(100,100,100,0.14);
   border:1px solid rgba(120,120,120,0.22);
-  font-size:0.6rem;
+  font-size:0.72rem;
 }
 </style>
 
