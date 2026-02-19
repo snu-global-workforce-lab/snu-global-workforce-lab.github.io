@@ -69,7 +69,7 @@ author_profile: false
   </div>
 
   <div class="person-card">
-    <img src="{{ '/images/heesu.png' | relative_url }}" alt="Yen">
+    <img src="{{ '/images/yen.png' | relative_url }}" alt="Yen">
     <p class="person-name"><strong>Le Hai Yen</strong></p>
     <p class="person-role">Ph.D. Candidate</p>
   </div>
