@@ -7,54 +7,71 @@ author_profile: false
 <style>
 
 /* =========================
-   Research Themes (카드형)
+   Research Themes (3 fixed cards)
    ========================= */
 
 .theme-grid{
   display:grid;
-  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   gap:22px;
-  margin: 18px 0 30px 0;
+  margin: 18px 0 34px 0;
 }
+
+@media (max-width: 900px){
+  .theme-grid{
+    grid-template-columns: 1fr;
+  }
+}
+
 .theme-card{
   border-radius:18px;
   padding:22px;
-  background: #141414;                  /* 부드러운 차콜 */
-  border: 1px solid rgba(255,255,255,0.08);
-  color: #d9d9d9;
-  transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
+  background:#141414;
+  border:1px solid rgba(255,255,255,0.08);
+  transition: transform 0.18s ease, box-shadow 0.18s ease, background 0.18s ease;
 }
 
 .theme-card:hover{
   transform: translateY(-2px);
+  background:#1c1c1c;
   box-shadow: 0 12px 24px rgba(0,0,0,0.35);
-  border-color: rgba(255,255,255,0.15);
 }
 
 .theme-title{
-  margin:0 0 10px 0;
-  font-size:1.35rem;
+  margin:0 0 12px 0;
+  font-size:1.45rem;
   line-height:1.25;
   color:#ffffff;
 }
 
 .theme-desc{
-  margin:0;
-  font-size:0.95rem;
-  line-height:1.6;
+  margin:0 0 18px 0;
+  font-size:1rem;
+  line-height:1.7;
   color:#cfcfcf;
 }
 
+.theme-link{
+  font-size:1.05rem;
+  color:#4aa3c6;
+  text-decoration:none;
+}
+
+.theme-link:hover{
+  text-decoration:underline;
+}
+
+
 /* =========================
-   Project Cards (납작, 작은 폰트)
+   Project Cards (compact)
    ========================= */
 
 .project-card{
   border-radius:14px;
   padding:14px 18px;
-  margin: 14px 0;
+  margin:14px 0;
   background: rgba(128,128,128,0.12);
-  border: 1px solid rgba(128,128,128,0.24);
+  border:1px solid rgba(128,128,128,0.24);
   transition: transform 0.18s ease, box-shadow 0.18s ease;
 }
 
@@ -65,19 +82,19 @@ author_profile: false
 
 .project-title{
   margin:0 0 4px 0;
-  font-size:1rem;              /* 작게 */
+  font-size:1rem;
   line-height:1.35;
 }
 
 .project-meta{
   margin:0 0 6px 0;
-  font-size:0.82rem;           /* 작게 */
+  font-size:0.82rem;
   opacity:0.8;
 }
 
 .project-desc{
   margin:0 0 8px 0;
-  font-size:0.85rem;           /* 작게 */
+  font-size:0.85rem;
   line-height:1.5;
   opacity:0.9;
 }
@@ -99,7 +116,7 @@ author_profile: false
 </style>
 
 
-<p style="max-width: 900px; font-size:0.95rem; line-height:1.6;">
+<p style="max-width:900px; font-size:0.95rem; line-height:1.6;">
 Our research examines how education and workforce development systems shape labor market outcomes and institutional transformation.
 We combine quantitative analysis, occupational research, and policy evaluation in national and international contexts.
 </p>
@@ -113,23 +130,28 @@ We combine quantitative analysis, occupational research, and policy evaluation i
   <div class="theme-card">
     <p class="theme-title"><strong>TVET & Policy Reform</strong></p>
     <p class="theme-desc">
-      Institutional change and impact evaluation in education and TVET systems,
-      including labor-market transitions and growth trajectories.
+      Institutional change and impact evaluation in education and TVET systems, including
+      individual labor-market transitions and growth trajectories.
     </p>
+    <a class="theme-link">Learn more →</a>
   </div>
 
   <div class="theme-card">
     <p class="theme-title"><strong>Occupations & Work</strong></p>
     <p class="theme-desc">
-      AI, aging, and structural shifts in occupations, tasks, and labor markets.
+      How AI and population aging reshape occupations, tasks, and labor markets—mapping change
+      and identifying emerging skill demands.
     </p>
+    <a class="theme-link">Learn more →</a>
   </div>
 
   <div class="theme-card">
     <p class="theme-title"><strong>Development Cooperation</strong></p>
     <p class="theme-desc">
-      Evidence-based policy design and institutional development with international partners.
+      Collaborative projects in education and TVET with international partners such as the
+      World Bank, FAO, and KOICA—translating evidence into practice.
     </p>
+    <a class="theme-link">Learn more →</a>
   </div>
 
 </div>
@@ -138,13 +160,13 @@ We combine quantitative analysis, occupational research, and policy evaluation i
 
 ## 2026
 
-<!-- 새 프로젝트가 생기면 여기에 추가 -->
+<!-- Add projects here -->
 
 ---
 
 ## 2025
 
-<!-- 새 프로젝트가 생기면 여기에 추가 -->
+<!-- Add projects here -->
 
 ---
 
