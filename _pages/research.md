@@ -55,7 +55,7 @@ author_profile: false
   margin:18px 0 24px 0;
   background: rgba(128,128,128,0.07);
   border:1px solid rgba(128,128,128,0.18);
-  line-height:1.05;
+  line-height:0.80;
 }
 .project-title-kr{
   font-size:1.02rem;
@@ -66,15 +66,15 @@ author_profile: false
   font-size:0.9rem;
   font-style:italic;
   opacity:0.75;
-  margin:1px 0 0 0;
+  margin:0;
 }
 .project-meta{
   font-size:0.88rem;
   opacity:0.85;
-  margin:5px 0 0 0;
+  margin:1px 0 0 0;
 }
 .tag-row{
-  margin-top:8px;
+  margin-top:1px;
   display:flex;
   flex-wrap:wrap;
   gap:6px;
