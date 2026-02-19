@@ -90,7 +90,7 @@ author_profile: false
 }
 </style>
 
-{% assign news_posts = site.posts | where_exp: "post", "post.categories contains 'news'" %}
+{% assign news_posts = site.categories.news %}
 
 ## Recent News
 
