@@ -57,7 +57,7 @@ author_profile: false
 <div class="people-grid">
 
   <div class="person-card">
-    <img src="{{ '/images/heesu.jpeg' | relative_url }}" alt="Heesoo Yang">
+    <img src="{{ '/images/heesu.jpeg' | relative_url }}" alt="Heesu Yang">
     <p class="person-name"><strong>Heesoo Yang</strong></p>
     <p class="person-role">Ph.D. Candidate</p>
   </div>
