@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title       : "SNU International Development Cooperation in VEWD Lab"
+title       : "SNU IDC in VEWD Lab"
 name        : &name "SNU IDC in VEWD Lab"
 description : "Research on workforce development, skills analytics, and evidence-based HR/TVET policy."
 url         : "https://snu-global-workforce-lab.github.io" # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
