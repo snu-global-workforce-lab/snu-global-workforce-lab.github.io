@@ -5,7 +5,7 @@ permalink: /publication/2023-middle-aged-adults-career-trajectories-and-later-li
 date: 2023-01-01
 venue: "Longitudinal and Life Course Studies"
 type: "Journal Article"
-citation: "Jeong, Seong Ji and Choi, Su Jung and Hawley, Joshua (2023). Middle-aged adults’ career trajectories and later-life financial security: evidence from Korea. Longitudinal and Life Course Studies."
+authors: "Seong Ji Jeong; Su Jung Choi; Joshua Hawley"
 paperurl: ""
 ---
 
