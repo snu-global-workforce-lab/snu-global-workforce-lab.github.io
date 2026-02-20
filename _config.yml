@@ -9,8 +9,8 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title       : "SNU Global Workforce Development Lab"
-name        : "SNU Global Workforce Development Lab"
+title       : "SNU International Development Cooperation in VEWD Lab"
+name        : "SNU International Development Cooperation in VEWD Lab"
 description : "Research on workforce development, skills analytics, and evidence-based HR/TVET policy."
 url         : "https://snu-global-workforce-lab.github.io" # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
@@ -23,7 +23,7 @@ repository               : "snu-global-workforce-lab/snu-global-workforce-lab.gi
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "SNU Global Workforce Developmenet Lab"
+  name             : "SNU International Development Cooperation in VEWD Lab"
   bio              : "Seoul National University"
   location         : "Seoul, Korea"
   employer         : "Seoul National University"
