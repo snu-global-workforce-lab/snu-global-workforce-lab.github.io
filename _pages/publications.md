@@ -52,10 +52,6 @@ author_profile: false
   <a class="pub-btn" href="#" target="_blank" rel="noopener">Google Scholar</a>
 </div>
 
-<p class="pub-note">
-Publications are maintained as structured entries. Most items are imported from Google Scholar (BibTeX), and any missing items can be added manually.
-</p>
-
 {% assign pubs = site.publications | sort: "date" | reverse %}
 {% assign journal = pubs | where: "type", "Journal Article" %}
 {% assign chapters = pubs | where: "type", "Book Chapter" %}
