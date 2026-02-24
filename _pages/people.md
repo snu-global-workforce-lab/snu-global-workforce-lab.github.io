@@ -291,16 +291,16 @@ author_profile: false
   </div>
 
   <div class="alumni-card">
-    <img class="alumni-photo" src="{{ '/images/people/alumni-placeholder.png' | relative_url }}" alt="Jihyun An">
+    <img class="alumni-photo" src="{{ '/images/people/jihyeon.png' | relative_url }}" alt="Jihyeon An">
     <div class="alumni-meta">
-      <p class="alumni-name">Jihyun An</p>
-      <p class="alumni-affil">Employed</p>
+      <p class="alumni-name">Jihyeon An</p>
+      <p class="alumni-affil">건국대학교</p>
       <span class="alumni-tag">Alumni</span>
     </div>
   </div>
 
   <div class="alumni-card">
-    <img class="alumni-photo" src="{{ '/images/people/alumni-placeholder.png' | relative_url }}" alt="Jiyeon Kim">
+    <img class="alumni-photo" src="{{ '/images/people/jiyeon1.png' | relative_url }}" alt="Jiyeon Kim">
     <div class="alumni-meta">
       <p class="alumni-name">Jiyeon Kim</p>
       <p class="alumni-affil">Ph.D. Student</p>
