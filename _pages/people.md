@@ -228,7 +228,7 @@ author_profile: false
 <div class="alumni-grid">
 
   <div class="alumni-card">
-    <img class="alumni-photo" src="{{ '/images/alumni-placeholder.png' | relative_url }}" alt="Suhyun Bae">
+    <img class="alumni-photo" src="{{ '/images/woman.png' | relative_url }}" alt="Suhyun Bae">
     <div class="alumni-meta">
       <p class="alumni-name">Suhyun Bae</p>
       <p class="alumni-affil">Samsung Electronics</p>
@@ -237,7 +237,7 @@ author_profile: false
   </div>
 
   <div class="alumni-card">
-    <img class="alumni-photo" src="{{ '/images/alumni-placeholder.png' | relative_url }}" alt="Jagyeong Park">
+    <img class="alumni-photo" src="{{ '/images/woman.png' | relative_url }}" alt="Jagyeong Park">
     <div class="alumni-meta">
       <p class="alumni-name">Jagyeong Park</p>
       <p class="alumni-affil">Jeonbuk Research Institute</p>
@@ -246,7 +246,7 @@ author_profile: false
   </div>
 
   <div class="alumni-card">
-    <img class="alumni-photo" src="{{ '/images/alumni-placeholder.png' | relative_url }}" alt="Seongji Jeong">
+    <img class="alumni-photo" src="{{ '/images/woman.png' | relative_url }}" alt="Seongji Jeong">
     <div class="alumni-meta">
       <p class="alumni-name">Seongji Jeong</p>
       <p class="alumni-affil">Pennsylvania State University</p>
@@ -255,7 +255,7 @@ author_profile: false
   </div>
 
   <div class="alumni-card">
-    <img class="alumni-photo" src="{{ '/images/alumni-placeholder.png' | relative_url }}" alt="Jisik Min">
+    <img class="alumni-photo" src="{{ '/images/man.png' | relative_url }}" alt="Jisik Min">
     <div class="alumni-meta">
       <p class="alumni-name">Jisik Min</p>
       <p class="alumni-affil">Soonchunhyang University</p>
@@ -264,7 +264,7 @@ author_profile: false
   </div>
 
   <div class="alumni-card">
-    <img class="alumni-photo" src="{{ '/images/alumni-placeholder.png' | relative_url }}" alt="Gwiyeong Ko">
+    <img class="alumni-photo" src="{{ '/images/woman.png' | relative_url }}" alt="Gwiyeong Ko">
     <div class="alumni-meta">
       <p class="alumni-name">Gwiyeong Ko</p>
       <p class="alumni-affil">Korea Foundation for Local Educational Administration</p>
@@ -273,7 +273,7 @@ author_profile: false
   </div>
 
   <div class="alumni-card">
-    <img class="alumni-photo" src="{{ '/images/alumni-placeholder.png' | relative_url }}" alt="Hyunju Yoo">
+    <img class="alumni-photo" src="{{ '/images/woman.png' | relative_url }}" alt="Hyunju Yoo">
     <div class="alumni-meta">
       <p class="alumni-name">Hyunju Yoo</p>
       <p class="alumni-affil">Inha University</p>
@@ -282,7 +282,7 @@ author_profile: false
   </div>
 
   <div class="alumni-card">
-    <img class="alumni-photo" src="{{ '/images/alumni-placeholder.png' | relative_url }}" alt="Seokho Hong">
+    <img class="alumni-photo" src="{{ '/images/man.png' | relative_url }}" alt="Seokho Hong">
     <div class="alumni-meta">
       <p class="alumni-name">Seokho Hong</p>
       <p class="alumni-affil">—</p>
@@ -291,7 +291,7 @@ author_profile: false
   </div>
 
   <div class="alumni-card">
-    <img class="alumni-photo" src="{{ '/images/jihyeon.png' | relative_url }}" alt="Jihyeon An">
+    <img class="alumni-photo" src="{{ '/images/jihyeon.jpeg' | relative_url }}" alt="Jihyeon An">
     <div class="alumni-meta">
       <p class="alumni-name">Jihyeon An</p>
       <p class="alumni-affil">건국대학교</p>
@@ -300,7 +300,7 @@ author_profile: false
   </div>
 
   <div class="alumni-card">
-    <img class="alumni-photo" src="{{ '/images/jiyeon1.png' | relative_url }}" alt="Jiyeon Kim">
+    <img class="alumni-photo" src="{{ '/images/jiyeon1.jpeg' | relative_url }}" alt="Jiyeon Kim">
     <div class="alumni-meta">
       <p class="alumni-name">Jiyeon Kim</p>
       <p class="alumni-affil">Ph.D. Student</p>
