@@ -4,7 +4,7 @@ date: 2026-02-20
 categories: [news]
 excerpt: "Two master's students from the SNU Global Workforce Development Lab graduated in February 2026."
 header:
-  teaser: /images/news/masters-graduation-2026.jpg
+  teaser: /images/news/2026-2-graduation.jpg
 ---
 
 ![Master's Graduation 2026](/images/news/2026-2-graduation.jpeg)
