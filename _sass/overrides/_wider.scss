@@ -1,0 +1,15 @@
+/* ===== Site-wide wider layout ===== */
+
+/* Overall content container width */
+.page__inner-wrap,
+.page__content{
+  max-width: 1300px;
+}
+
+/* Optional: slightly more width on very large screens */
+@media (min-width: 1600px){
+  .page__inner-wrap,
+  .page__content{
+    max-width: 1400px;
+  }
+}
