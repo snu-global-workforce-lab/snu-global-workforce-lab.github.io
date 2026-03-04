@@ -1,15 +1,19 @@
-/* ===== Site-wide wider layout ===== */
+/* ===== Site-wide wider layout (force override) ===== */
 
-/* Overall content container width */
 .page__inner-wrap,
-.page__content{
-  max-width: 1300px;
+.page__content,
+.archive,
+.initial-content,
+.masthead__inner-wrap{
+  max-width: 1300px !important;
 }
 
-/* Optional: slightly more width on very large screens */
 @media (min-width: 1600px){
   .page__inner-wrap,
-  .page__content{
-    max-width: 1400px;
+  .page__content,
+  .archive,
+  .initial-content,
+  .masthead__inner-wrap{
+    max-width: 1400px !important;
   }
 }
