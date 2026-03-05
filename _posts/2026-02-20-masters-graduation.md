@@ -2,11 +2,10 @@
 title: "Congratulations to Our Master's Graduates"
 date: 2026-02-20
 categories: [news]
-excerpt: "Two master's students from the SNU International Cooperation in VEWD Lab graduated in February 2026."
+excerpt: Two master's students from the SNU International Cooperation in VEWD Lab graduated in February 2026
 header:
-  teaser: images/news/2026-2-graduation.jpeg
+  teaser: /images/news/2026-2-graduation.jpeg
 author_profile: false
-
 ---
 
 ![Master's Graduation 2026](images/news/2026-2-graduation.jpeg)
