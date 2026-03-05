@@ -3,7 +3,8 @@ title: "Welcome to our new lab members"
 date: 2026-01-25
 categories: [news]
 excerpt: "We’re happy to welcome new members joining our lab this semester."
-teaser: /images/news/welcome-members.jpeg
+header:
+  teaser: /images/news/welcome-members.jpeg
 author_profile: false
 ---
 
