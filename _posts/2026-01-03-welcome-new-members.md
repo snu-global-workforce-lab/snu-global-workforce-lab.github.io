@@ -6,6 +6,9 @@ excerpt: "We’re happy to welcome new members joining our lab this semester."
 teaser: /images/news/welcome-members.jpeg
 author_profile: false
 ---
+
+![New member of 2026](/images/news/welcome-members.jpeg)
+
 A warm welcome to our new lab member, Ryul Heo, joining this semester.
 
 
