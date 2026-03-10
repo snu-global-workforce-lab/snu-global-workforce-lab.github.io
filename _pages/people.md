@@ -61,8 +61,8 @@ author_profile: false
 /* --- Alumni (vertical, compact) --- */
 .alumni-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 22px;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
   margin-top: 12px;
 }
 
@@ -78,12 +78,13 @@ author_profile: false
   border: 1px solid rgba(128,128,128,0.18);
   background: rgba(128,128,128,0.06);
   border-radius: 14px;
-  padding: 14px 14px 12px 14px;
+
+  padding: 16px 18px;
+
   display: flex;
-  flex-direction: column;
   align-items: center;
-  text-align: center;
-  min-height: 220px;
+  gap: 16px;
+
   transition: transform 0.16s ease, box-shadow 0.16s ease;
 }
 
@@ -91,10 +92,10 @@ author_profile: false
   transform: translateY(-2px);
   box-shadow: 0 10px 20px rgba(0,0,0,0.14);
 }
-
+  
 .alumni-photo {
-  width: 60px;
-  height: 76px;
+  width: 72px;
+  height: 90px;
   object-fit: cover;
   border-radius: 8px;
   border: 1px solid rgba(128,128,128,0.22);
