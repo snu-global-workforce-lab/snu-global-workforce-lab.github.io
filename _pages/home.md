@@ -135,7 +135,7 @@ author_profile: false
     <div class="research-card">
       <h3 style="font-size:1.22rem;">
         Occupations &amp; Work
-        <div class="kr-subtitle">직업 및 노동 연구</div>
+        <div class="kr-subtitle">직업 연구</div>
       </h3>
       <p>
         How AI and population aging reshape occupations, tasks, and labor markets—
