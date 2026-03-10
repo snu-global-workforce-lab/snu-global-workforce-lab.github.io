@@ -148,7 +148,6 @@ author_profile: false
 </style>
 
 ## Current Members  
-<div class="section-ko">현재 구성원</div>
 ---
 
 ### Doctoral Researchers  
