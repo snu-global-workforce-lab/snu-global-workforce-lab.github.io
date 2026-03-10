@@ -61,8 +61,8 @@ author_profile: false
 /* --- Alumni (vertical, compact) --- */
 .alumni-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 16px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
   margin-top: 12px;
 }
 
