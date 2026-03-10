@@ -58,7 +58,7 @@ author_profile: false
   line-height: 1.35;
 }
 
-/* --- Alumni (vertical, compact) --- */
+/* --- Alumni (horizontal card) --- */
 .alumni-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -67,24 +67,25 @@ author_profile: false
 }
 
 @media (max-width: 1100px) {
-  .alumni-grid { grid-template-columns: repeat(2, 1fr); }
+  .alumni-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 @media (max-width: 650px) {
-  .alumni-grid { grid-template-columns: 1fr; }
+  .alumni-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 .alumni-card {
   border: 1px solid rgba(128,128,128,0.18);
   background: rgba(128,128,128,0.06);
   border-radius: 14px;
-
   padding: 16px 18px;
-
   display: flex;
   align-items: center;
-  gap: 16px;
-
+  gap: 18px;
   transition: transform 0.16s ease, box-shadow 0.16s ease;
 }
 
@@ -92,34 +93,37 @@ author_profile: false
   transform: translateY(-2px);
   box-shadow: 0 10px 20px rgba(0,0,0,0.14);
 }
-  
+
 .alumni-photo {
-  width: 72px;
-  height: 90px;
+  width: 80px;
+  height: 100px;
   object-fit: cover;
   border-radius: 8px;
   border: 1px solid rgba(128,128,128,0.22);
   background: rgba(128,128,128,0.10);
-  margin-bottom: 10px;
+  flex-shrink: 0;
 }
-  
+
 .alumni-info {
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
   text-align: left;
+  gap: 2px;
+  min-width: 0;
 }
-  
+
 .alumni-name {
   font-weight: 800;
-  margin: 0 0 2px 0;
-  font-size: 0.92rem;
-  line-height: 1.15;
+  margin: 0;
+  font-size: 0.98rem;
+  line-height: 1.2;
 }
 
 .alumni-name-ko {
   display: block;
-  margin: 0 0 6px 0;
-  font-size: 0.75rem;
+  margin: 0 0 4px 0;
+  font-size: 0.78rem;
   opacity: 0.76;
   line-height: 1.15;
   font-family: "Pretendard", "Noto Sans KR", sans-serif;
@@ -128,25 +132,26 @@ author_profile: false
 
 .alumni-affil {
   margin: 0;
-  font-size: 0.82rem;
+  font-size: 0.88rem;
   opacity: 0.85;
   line-height: 1.25;
+  word-break: keep-all;
 }
 
 .alumni-affil-ko {
   display: block;
-  margin: 4px 0 0 0;
-  font-size: 0.74rem;
+  margin: 2px 0 0 0;
+  font-size: 0.76rem;
   opacity: 0.74;
   line-height: 1.2;
   font-family: "Pretendard", "Noto Sans KR", sans-serif;
   color: inherit;
+  word-break: keep-all;
 }
 
 .alumni-tag {
-  margin-top: auto;
-  padding-top: 10px;
-  font-size: 0.72rem;
+  margin-top: 8px;
+  font-size: 0.74rem;
   opacity: 0.75;
 }
 </style>
@@ -235,7 +240,6 @@ author_profile: false
     <div class="person-name-ko">박지은</div>
     <div class="person-role">Master's Student<br>농림수산식품교육문화정보원</div>
   </div>
-  
 
   <div class="person-card">
     <img src="{{ '/images/man.png' | relative_url }}" alt="Dongju Kim">
@@ -243,6 +247,7 @@ author_profile: false
     <div class="person-name-ko">김동주</div>
     <div class="person-role">Master's Student</div>
   </div>
+
 </div>
 
 ---
@@ -296,81 +301,99 @@ author_profile: false
 
   <div class="alumni-card">
     <img class="alumni-photo" src="{{ '/images/woman.png' | relative_url }}" alt="Suhyun Bae">
-    <div class="alumni-name">Suhyun Bae</div>
-    <div class="alumni-name-ko">배수현</div>
-    <div class="alumni-affil">Samsung Electronics</div>
-    <div class="alumni-affil-ko">삼성전자</div>
-    <div class="alumni-tag">Ph.D.</div>
+    <div class="alumni-info">
+      <div class="alumni-name">Suhyun Bae</div>
+      <div class="alumni-name-ko">배수현</div>
+      <div class="alumni-affil">Samsung Electronics</div>
+      <div class="alumni-affil-ko">삼성전자</div>
+      <div class="alumni-tag">Ph.D.</div>
+    </div>
   </div>
 
   <div class="alumni-card">
     <img class="alumni-photo" src="{{ '/images/woman.png' | relative_url }}" alt="Jagyeong Park">
-    <div class="alumni-name">Jagyeong Park</div>
-    <div class="alumni-name-ko">박자경</div>
-    <div class="alumni-affil">Jeonbuk Research Institute</div>
-    <div class="alumni-affil-ko">전북연구원</div>
-    <div class="alumni-tag">Ph.D.</div>
+    <div class="alumni-info">
+      <div class="alumni-name">Jagyeong Park</div>
+      <div class="alumni-name-ko">박자경</div>
+      <div class="alumni-affil">Jeonbuk Research Institute</div>
+      <div class="alumni-affil-ko">전북연구원</div>
+      <div class="alumni-tag">Ph.D.</div>
+    </div>
   </div>
 
   <div class="alumni-card">
     <img class="alumni-photo" src="{{ '/images/woman.png' | relative_url }}" alt="Seongji Jeong">
-    <div class="alumni-name">Seongji Jeong</div>
-    <div class="alumni-name-ko">정성지</div>
-    <div class="alumni-affil">Pennsylvania State University</div>
-    <div class="alumni-affil-ko">펜실베니아 주립대학교</div>
-    <div class="alumni-tag">Ph.D.</div>
+    <div class="alumni-info">
+      <div class="alumni-name">Seongji Jeong</div>
+      <div class="alumni-name-ko">정성지</div>
+      <div class="alumni-affil">Pennsylvania State University</div>
+      <div class="alumni-affil-ko">펜실베니아 주립대학교</div>
+      <div class="alumni-tag">Ph.D.</div>
+    </div>
   </div>
 
   <div class="alumni-card">
     <img class="alumni-photo" src="{{ '/images/man.png' | relative_url }}" alt="Jisik Min">
-    <div class="alumni-name">Jisik Min</div>
-    <div class="alumni-name-ko">민지식</div>
-    <div class="alumni-affil">Soonchunhyang University</div>
-    <div class="alumni-affil-ko">순천향대학교</div>
-    <div class="alumni-tag">Ph.D.</div>
+    <div class="alumni-info">
+      <div class="alumni-name">Jisik Min</div>
+      <div class="alumni-name-ko">민지식</div>
+      <div class="alumni-affil">Soonchunhyang University</div>
+      <div class="alumni-affil-ko">순천향대학교</div>
+      <div class="alumni-tag">Ph.D.</div>
+    </div>
   </div>
 
   <div class="alumni-card">
     <img class="alumni-photo" src="{{ '/images/woman.png' | relative_url }}" alt="Gwiyeong Ko">
-    <div class="alumni-name">Gwiyeong Ko</div>
-    <div class="alumni-name-ko">고귀영</div>
-    <div class="alumni-affil">Korea Foundation for Local Educational Administration</div>
-    <div class="alumni-affil-ko">한국지방교육행정연구재단</div>
-    <div class="alumni-tag">Ph.D.</div>
+    <div class="alumni-info">
+      <div class="alumni-name">Gwiyeong Ko</div>
+      <div class="alumni-name-ko">고귀영</div>
+      <div class="alumni-affil">Korea Foundation for Local Educational Administration</div>
+      <div class="alumni-affil-ko">한국지방교육행정연구재단</div>
+      <div class="alumni-tag">Ph.D.</div>
+    </div>
   </div>
 
   <div class="alumni-card">
     <img class="alumni-photo" src="{{ '/images/woman.png' | relative_url }}" alt="Hyunju Yoo">
-    <div class="alumni-name">Hyunju Yoo</div>
-    <div class="alumni-name-ko">유현주</div>
-    <div class="alumni-affil">Inha University</div>
-    <div class="alumni-affil-ko">인하대학교</div>
-    <div class="alumni-tag">Ph.D.</div>
+    <div class="alumni-info">
+      <div class="alumni-name">Hyunju Yoo</div>
+      <div class="alumni-name-ko">유현주</div>
+      <div class="alumni-affil">Inha University</div>
+      <div class="alumni-affil-ko">인하대학교</div>
+      <div class="alumni-tag">Ph.D.</div>
+    </div>
   </div>
 
   <div class="alumni-card">
     <img class="alumni-photo" src="{{ '/images/man.png' | relative_url }}" alt="Seokho Hong">
-    <div class="alumni-name">Seokho Hong</div>
-    <div class="alumni-name-ko">홍석호</div>
-    <div class="alumni-affil">—</div>
-    <div class="alumni-tag">M.A.</div>
+    <div class="alumni-info">
+      <div class="alumni-name">Seokho Hong</div>
+      <div class="alumni-name-ko">홍석호</div>
+      <div class="alumni-affil">-</div>
+      <div class="alumni-tag">M.A.</div>
+    </div>
   </div>
 
   <div class="alumni-card">
     <img class="alumni-photo" src="{{ '/images/jihyeon.jpeg' | relative_url }}" alt="Jihyeon An">
-    <div class="alumni-name">Jihyeon An</div>
-    <div class="alumni-name-ko">안지현</div>
-    <div class="alumni-affil">Konkuk University</div>
-    <div class="alumni-affil-ko">건국대학교</div>
-    <div class="alumni-tag">M.A.</div>
+    <div class="alumni-info">
+      <div class="alumni-name">Jihyeon An</div>
+      <div class="alumni-name-ko">안지현</div>
+      <div class="alumni-affil">Konkuk University</div>
+      <div class="alumni-affil-ko">건국대학교</div>
+      <div class="alumni-tag">M.A.</div>
+    </div>
   </div>
 
   <div class="alumni-card">
     <img class="alumni-photo" src="{{ '/images/jiyeon1.jpeg' | relative_url }}" alt="Jiyeon Kim">
-    <div class="alumni-name">Jiyeon Kim</div>
-    <div class="alumni-name-ko">김지연</div>
-    <div class="alumni-affil">Ph.D. Student</div>
-    <div class="alumni-tag">M.A.</div>
+    <div class="alumni-info">
+      <div class="alumni-name">Jiyeon Kim</div>
+      <div class="alumni-name-ko">김지연</div>
+      <div class="alumni-affil">Ph.D. Student</div>
+      <div class="alumni-tag">M.A.</div>
+    </div>
   </div>
 
 </div>
