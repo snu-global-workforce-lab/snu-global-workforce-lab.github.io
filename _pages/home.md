@@ -12,7 +12,13 @@ author_profile: false
   gap: 20px;
 }
 
-/* ===== Research cards (neutral style for both light & dark themes) ===== */
+@media (max-width: 1000px) {
+  .research-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ===== Research cards ===== */
 .research-card {
   border-radius: 16px;
   padding: 22px;
@@ -44,9 +50,7 @@ author_profile: false
   margin: 0;
   line-height: 1.6;
   opacity: 0.88;
-
-  /* keeps link rows roughly aligned */
-  min-height: 5.6em;
+  min-height: 8.8em;
 }
 
 .research-card .card-link {
@@ -55,6 +59,17 @@ author_profile: false
 
 .research-card .card-link a {
   text-decoration: none;
+}
+
+.kr-subtitle {
+  font-size: 0.78rem;
+  opacity: 0.75;
+  font-weight: 500;
+}
+
+.kr-text {
+  font-size: 0.85rem;
+  opacity: 0.8;
 }
 </style>
 
@@ -68,24 +83,40 @@ author_profile: false
 <!-- 2) Welcome Message -->
 <div style="max-width: 980px; margin: 0 auto 26px auto;">
   <p style="font-size: 1.05rem; line-height: 1.65; margin: 0;">
-    Welcome to the <strong>International Development Cooperation in VEWD(Vocational Education and Workforce Development) Lab</strong> at Seoul National University.<br>
+    Welcome to the <strong>International Development Cooperation in VEWD (Vocational Education and Workforce Development) Lab</strong> at Seoul National University.<br>
     We conduct rigorous quantitative research on education, workforce development, and labor market dynamics.<br>
     Our work informs policy reform and development cooperation in education through evidence and impact evaluation.
+    <br><br>
+    <span style="font-size:0.92rem; opacity:0.85;">
+      서울대학교 <strong>International Development Cooperation in VEWD Lab</strong>에 오신 것을 환영합니다.<br>
+      우리 연구실은 교육, 인력개발, 노동시장 변화에 대한 엄밀한 정량 연구를 수행합니다.<br>
+      연구 결과를 바탕으로 교육 정책개혁과 국제개발협력에 기여하고자 합니다.
+    </span>
   </p>
 </div>
 
 <!-- 3) Research Themes -->
 <div style="max-width: 1200px; margin: 0 auto;">
-  <h2 style="margin: 0 0 18px 0;">Research Themes</h2>
+  <h2 style="margin: 0 0 18px 0;">
+    Research Themes<br>
+    <span style="font-size:0.85rem; opacity:0.72; font-weight:500;">연구 주제</span>
+  </h2>
 
   <div class="research-grid">
 
     <!-- Card 1 -->
     <div class="research-card">
-      <h3 style="font-size:1.22rem;">TVET &amp; Policy Reform</h3>
+      <h3 style="font-size:1.22rem;">
+        TVET &amp; Policy Reform<br>
+        <span class="kr-subtitle">직업교육 및 정책개혁</span>
+      </h3>
       <p>
         Institutional change and impact evaluation in education and TVET systems,
-        including individual labor-market transitions and growth trajectories.
+        including individual labor-market transitions and growth trajectories.<br>
+        <span class="kr-text">
+          교육 및 직업교육 시스템의 제도 변화와 정책 효과를 분석하며,
+          개인의 노동시장 전환과 성장 경로를 연구합니다.
+        </span>
       </p>
       <div class="card-link">
         <a href="/research/">Learn more →</a>
@@ -94,10 +125,17 @@ author_profile: false
 
     <!-- Card 2 -->
     <div class="research-card">
-      <h3 style="font-size:1.22rem;">Occupations &amp; Work</h3>
+      <h3 style="font-size:1.22rem;">
+        Occupations &amp; Work<br>
+        <span class="kr-subtitle">직업 및 노동 연구</span>
+      </h3>
       <p>
         How AI and population aging reshape occupations, tasks, and labor markets—
-        mapping change and identifying emerging skill demands.
+        mapping change and identifying emerging skill demands.<br>
+        <span class="kr-text">
+          AI와 고령화가 직업, 과업, 노동시장 구조를 어떻게 변화시키는지를 분석하고,
+          새롭게 요구되는 역량을 탐색합니다.
+        </span>
       </p>
       <div class="card-link">
         <a href="/research/">Learn more →</a>
@@ -106,10 +144,17 @@ author_profile: false
 
     <!-- Card 3 -->
     <div class="research-card">
-      <h3 style="font-size:1.18rem;">Development Cooperation</h3>
+      <h3 style="font-size:1.18rem;">
+        Development Cooperation<br>
+        <span class="kr-subtitle">국제개발협력</span>
+      </h3>
       <p>
         Collaborative projects in education and TVET with international partners
-        such as the World Bank, FAO, and KOICA—translating evidence into practice.
+        such as the World Bank, FAO, and KOICA—translating evidence into practice.<br>
+        <span class="kr-text">
+          World Bank, FAO, KOICA 등과의 협력을 통해 교육 및 직업교육 분야의
+          국제개발협력 프로젝트를 수행하며, 연구 결과를 실제 정책과 사업에 연결합니다.
+        </span>
       </p>
       <div class="card-link">
         <a href="/research/">Learn more →</a>
