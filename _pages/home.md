@@ -97,9 +97,9 @@ author_profile: false
   </p>
 
   <div style="font-size:0.92rem; opacity:0.85; line-height:1.65; margin-top:14px;">
-    서울대학교 <strong>International Development Cooperation in VEWD Lab</strong>에 오신 것을 환영합니다.<br>
-    우리 연구실은 교육, 인력개발, 노동시장 변화에 대한 엄밀한 정량 연구를 수행합니다.<br>
-    연구 결과를 바탕으로 교육 정책개혁과 국제개발협력에 기여하고자 합니다.
+    서울대학교 <strong>국제산업인력개발협력 연구실</strong>에 오신 것을 환영합니다.<br>
+    우리 연구실은 교육, 인력개발, 노동시장 변화에 대한 데이터 기반의 정량 연구를 수행합니다.<br>
+    연구 결과를 바탕으로 교육 정책 개혁과 국제개발협력에 기여하는 것이 우리의 목표입니다. 
   </div>
 </div>
 
@@ -123,7 +123,7 @@ author_profile: false
         including individual labor-market transitions and growth trajectories.
         <div class="kr-text">
           교육 및 직업교육 시스템의 제도 변화와 정책 효과를 분석하며,
-          개인의 노동시장 전환과 성장 경로를 연구합니다.
+          개인의 노동시장 전환과 성장 궤적 및 경로를 연구합니다.
         </div>
       </p>
       <div class="card-link">
