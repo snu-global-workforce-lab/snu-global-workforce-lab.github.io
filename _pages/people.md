@@ -146,8 +146,6 @@ author_profile: false
 
 ## Current Members
 
----
-
 ### Doctoral Researchers
 
 <div class="people-grid">
@@ -199,39 +197,45 @@ author_profile: false
     <img src="{{ '/images/ryul.jpeg' | relative_url }}" alt="Ryul Heo">
     <div class="person-name"><strong>Ryul Heo</strong></div>
     <div class="person-name-ko">허률</div>
-    <div class="person-role">M.A. Student</div>
+    <div class="person-role">Master's Student</div>
   </div>
 
 </div>
 
 ---
 
-### Part-time Ph.D. Student
+### Part-time Student
 
 <div class="people-grid">
 
   <div class="person-card">
-    <img src="{{ '/images/heesu.png' | relative_url }}" alt="Gohun Kim">
+    <img src="{{ '/images/woman.png' | relative_url }}" alt="Sula Kim">
+    <div class="person-name"><strong>Sula Kim</strong></div>
+    <div class="person-name-ko">김슬아</div>
+    <div class="person-role">Ph.D. Student<br>SK DND</div>
+  </div>
+
+  <div class="person-card">
+    <img src="{{ '/images/man.png' | relative_url }}" alt="Gohun Kim">
     <div class="person-name"><strong>Gohun Kim</strong></div>
     <div class="person-name-ko">김고헌</div>
-    <div class="person-role">Ph.D. Student (Part-time)<br>Dahawa Farm</div>
+    <div class="person-role">Ph.D. Student<br>Dahawa Farm</div>
   </div>
-
-</div>
-
----
-
-### Project Team
-
-<div class="people-grid">
 
   <div class="person-card">
-    <img src="{{ '/images/fm.png' | relative_url }}" alt="TBD">
-    <div class="person-name"><strong>TBD</strong></div>
-    <div class="person-name-ko">미정</div>
-    <div class="person-role">Field Manager</div>
+    <img src="{{ '/images/woman.png' | relative_url }}" alt="Jieun Park">
+    <div class="person-name"><strong>Jieun Park</strong></div>
+    <div class="person-name-ko">박지은</div>
+    <div class="person-role">Master's Student<br>농림수산식품교육문화정보원</div>
   </div>
+  
 
+  <div class="person-card">
+    <img src="{{ '/images/man.png' | relative_url }}" alt="Dongju Kim">
+    <div class="person-name"><strong>Dongju Kim</strong></div>
+    <div class="person-name-ko">김동주</div>
+    <div class="person-role">Master's Student</div>
+  </div>
 </div>
 
 ---
@@ -239,6 +243,13 @@ author_profile: false
 ### Project Staff
 
 <div class="people-grid">
+
+  <div class="person-card">
+    <img src="{{ '/images/fm.png' | relative_url }}" alt="Jiyong Yun">
+    <div class="person-name"><strong>Jiyong Yun</strong></div>
+    <div class="person-name-ko">윤지용</div>
+    <div class="person-role">Field Manager</div>
+  </div>
 
   <div class="person-card">
     <img src="{{ '/images/eunji.jpeg' | relative_url }}" alt="Eunji Jang">
@@ -291,7 +302,7 @@ author_profile: false
     <div class="alumni-name-ko">박자경</div>
     <div class="alumni-affil">Jeonbuk Research Institute</div>
     <div class="alumni-affil-ko">전북연구원</div>
-    <div class="alumni-tag">Alumni</div>
+    <div class="alumni-tag">Ph.D.</div>
   </div>
 
   <div class="alumni-card">
@@ -300,7 +311,7 @@ author_profile: false
     <div class="alumni-name-ko">정성지</div>
     <div class="alumni-affil">Pennsylvania State University</div>
     <div class="alumni-affil-ko">펜실베니아 주립대학교</div>
-    <div class="alumni-tag">Alumni</div>
+    <div class="alumni-tag">Ph.D.</div>
   </div>
 
   <div class="alumni-card">
@@ -309,7 +320,7 @@ author_profile: false
     <div class="alumni-name-ko">민지식</div>
     <div class="alumni-affil">Soonchunhyang University</div>
     <div class="alumni-affil-ko">순천향대학교</div>
-    <div class="alumni-tag">Alumni</div>
+    <div class="alumni-tag">Ph.D.</div>
   </div>
 
   <div class="alumni-card">
@@ -318,7 +329,7 @@ author_profile: false
     <div class="alumni-name-ko">고귀영</div>
     <div class="alumni-affil">Korea Foundation for Local Educational Administration</div>
     <div class="alumni-affil-ko">한국지방교육행정연구재단</div>
-    <div class="alumni-tag">Alumni</div>
+    <div class="alumni-tag">Ph.D.</div>
   </div>
 
   <div class="alumni-card">
@@ -327,7 +338,7 @@ author_profile: false
     <div class="alumni-name-ko">유현주</div>
     <div class="alumni-affil">Inha University</div>
     <div class="alumni-affil-ko">인하대학교</div>
-    <div class="alumni-tag">Alumni</div>
+    <div class="alumni-tag">Ph.D.</div>
   </div>
 
   <div class="alumni-card">
@@ -335,7 +346,7 @@ author_profile: false
     <div class="alumni-name">Seokho Hong</div>
     <div class="alumni-name-ko">홍석호</div>
     <div class="alumni-affil">—</div>
-    <div class="alumni-tag">Alumni</div>
+    <div class="alumni-tag">M.A.</div>
   </div>
 
   <div class="alumni-card">
@@ -344,7 +355,7 @@ author_profile: false
     <div class="alumni-name-ko">안지현</div>
     <div class="alumni-affil">Konkuk University</div>
     <div class="alumni-affil-ko">건국대학교</div>
-    <div class="alumni-tag">Alumni</div>
+    <div class="alumni-tag">M.A.</div>
   </div>
 
   <div class="alumni-card">
@@ -352,7 +363,7 @@ author_profile: false
     <div class="alumni-name">Jiyeon Kim</div>
     <div class="alumni-name-ko">김지연</div>
     <div class="alumni-affil">Ph.D. Student</div>
-    <div class="alumni-tag">Alumni</div>
+    <div class="alumni-tag">M.A.</div>
   </div>
 
 </div>
