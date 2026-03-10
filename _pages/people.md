@@ -148,9 +148,12 @@ author_profile: false
 </style>
 
 ## Current Members  
+<div class="section-ko">현재 구성원</div>
+
 ---
 
 ### Doctoral Researchers  
+<div class="section-ko">박사과정 및 박사수료 연구원</div>
 
 <div class="people-grid">
 
@@ -159,6 +162,7 @@ author_profile: false
     <p class="person-name"><strong>Heesoo Yang</strong></p>
     <p class="person-name-ko">양희수</p>
     <p class="person-role">Ph.D. Candidate</p>
+    <p class="person-role-ko">박사수료</p>
   </div>
 
   <div class="person-card">   
@@ -166,12 +170,14 @@ author_profile: false
     <p class="person-name"><strong>Minwook Lee</strong></p>
     <p class="person-name-ko">이민욱</p>
     <p class="person-role">Ph.D. Candidate</p>
+    <p class="person-role-ko">박사수료</p>
   </div>
 
   <div class="person-card">
     <img src="{{ '/images/yen.png' | relative_url }}" alt="Le Hai Yen">
     <p class="person-name"><strong>Le Hai Yen</strong></p>
     <p class="person-name-ko">옌</p>
+    <p class="person-role">Ph.D. Candidate</p>
     <p class="person-role-ko">박사수료</p>
   </div>
 
@@ -180,6 +186,7 @@ author_profile: false
     <p class="person-name"><strong>Seyoung Cho</strong></p>
     <p class="person-name-ko">조세영</p>
     <p class="person-role">Ph.D. Student</p>
+    <p class="person-role-ko">박사과정</p>
   </div>
 
   <div class="person-card">
@@ -187,6 +194,7 @@ author_profile: false
     <p class="person-name"><strong>Juwon Park</strong></p>
     <p class="person-name-ko">박주원</p>
     <p class="person-role">Ph.D. Student</p>
+    <p class="person-role-ko">박사과정</p>
   </div>
 
 </div>
@@ -194,6 +202,7 @@ author_profile: false
 ---
 
 ### Master’s Student  
+<div class="section-ko">석사과정</div>
 
 <div class="people-grid">
 
@@ -202,6 +211,7 @@ author_profile: false
     <p class="person-name"><strong>Ryul Heo</strong></p>
     <p class="person-name-ko">허률</p>
     <p class="person-role">M.A. Student</p>
+    <p class="person-role-ko">석사과정</p>
   </div>
 
 </div>
@@ -209,6 +219,7 @@ author_profile: false
 ---
 
 ### Part-time Ph.D. Student  
+<div class="section-ko">박사과정(재직자)</div>
 
 <div class="people-grid">
 
@@ -217,7 +228,7 @@ author_profile: false
     <p class="person-name"><strong>Gohun Kim</strong></p>
     <p class="person-name-ko">김고헌</p>
     <p class="person-role">Ph.D. Student (Part-time)<br>Dahawa Farm</p>
-    <p class="person-role-ko">다하와농장</p>
+    <p class="person-role-ko">박사과정(재직자)<br>다하와농장</p>
   </div>
 
 </div>
@@ -231,8 +242,8 @@ author_profile: false
 
   <div class="person-card">
     <img src="{{ '/images/fm.png' | relative_url }}" alt="TBD">
-    <p class="person-name"><strong>Jiyong Yun</strong></p>
-    <p class="person-name-ko">윤지용</p>
+    <p class="person-name"><strong>TBD</strong></p>
+    <p class="person-name-ko">미정</p>
     <p class="person-role">Field Manager</p>
     <p class="person-role-ko">Field Manager</p>
   </div>
@@ -242,6 +253,7 @@ author_profile: false
 ---
 
 ### Project Staff  
+<div class="section-ko">사업단 직원</div>
 
 <div class="people-grid">
 
@@ -250,6 +262,7 @@ author_profile: false
     <p class="person-name"><strong>Eunji Jang</strong></p>
     <p class="person-name-ko">장은지</p>
     <p class="person-role">Project Staff</p>
+    <p class="person-role-ko">사업단 직원</p>
   </div>
 
   <div class="person-card">
@@ -257,6 +270,7 @@ author_profile: false
     <p class="person-name"><strong>Youngju Kwon</strong></p>
     <p class="person-name-ko">권영주</p>
     <p class="person-role">Project Staff</p>
+    <p class="person-role-ko">사업단 직원</p>
   </div>
 
   <div class="person-card">
@@ -264,6 +278,7 @@ author_profile: false
     <p class="person-name"><strong>Hyunkyung Shin</strong></p>
     <p class="person-name-ko">신현경</p>
     <p class="person-role">Project Staff</p>
+    <p class="person-role-ko">사업단 직원</p>
   </div>
 
   <div class="person-card">
@@ -271,6 +286,7 @@ author_profile: false
     <p class="person-name"><strong>Jinseon Jeon</strong></p>
     <p class="person-name-ko">전진선</p>
     <p class="person-role">Project Staff</p>
+    <p class="person-role-ko">사업단 직원</p>
   </div>
 
 </div>
@@ -297,7 +313,7 @@ author_profile: false
     <p class="alumni-name-ko">박자경</p>
     <p class="alumni-affil">Jeonbuk Research Institute</p>
     <p class="alumni-affil-ko">전북연구원</p>
-    <div class="alumni-tag">Ph.D.</div>
+    <div class="alumni-tag">Alumni</div>
   </div>
 
   <div class="alumni-card">
@@ -306,7 +322,7 @@ author_profile: false
     <p class="alumni-name-ko">정성지</p>
     <p class="alumni-affil">Pennsylvania State University</p>
     <p class="alumni-affil-ko">펜실베니아 주립대학교</p>
-    <div class="alumni-tag">Ph.D.</div>
+    <div class="alumni-tag">Alumni</div>
   </div>
 
   <div class="alumni-card">
@@ -315,7 +331,7 @@ author_profile: false
     <p class="alumni-name-ko">민지식</p>
     <p class="alumni-affil">Soonchunhyang University</p>
     <p class="alumni-affil-ko">순천향대학교</p>
-    <div class="alumni-tag">Ph.D.</div>
+    <div class="alumni-tag">Alumni</div>
   </div>
 
   <div class="alumni-card">
@@ -324,7 +340,7 @@ author_profile: false
     <p class="alumni-name-ko">고귀영</p>
     <p class="alumni-affil">Korea Foundation for Local Educational Administration</p>
     <p class="alumni-affil-ko">한국지방교육행정연구재단</p>
-    <div class="alumni-tag">Ph.D.</div>
+    <div class="alumni-tag">Alumni</div>
   </div>
 
   <div class="alumni-card">
@@ -333,7 +349,7 @@ author_profile: false
     <p class="alumni-name-ko">유현주</p>
     <p class="alumni-affil">Inha University</p>
     <p class="alumni-affil-ko">인하대학교</p>
-    <div class="alumni-tag">Ph.D.</div>
+    <div class="alumni-tag">Alumni</div>
   </div>
 
   <div class="alumni-card">
@@ -342,6 +358,7 @@ author_profile: false
     <p class="alumni-name-ko">홍석호</p>
     <p class="alumni-affil">—</p>
     <p class="alumni-affil-ko">—</p>
+    <div class="alumni-tag">Alumni</div>
   </div>
 
   <div class="alumni-card">
@@ -350,6 +367,7 @@ author_profile: false
     <p class="alumni-name-ko">안지현</p>
     <p class="alumni-affil">Konkuk University</p>
     <p class="alumni-affil-ko">건국대학교</p>
+    <div class="alumni-tag">Alumni</div>
   </div>
 
   <div class="alumni-card">
@@ -357,7 +375,7 @@ author_profile: false
     <p class="alumni-name">Jiyeon Kim</p>
     <p class="alumni-name-ko">김지연</p>
     <p class="alumni-affil">Ph.D. Student</p>
-    <p class="alumni-affil-ko">박사과정 유학</p>
+    <p class="alumni-affil-ko">박사과정 진학</p>
     <div class="alumni-tag">Alumni</div>
   </div>
 
