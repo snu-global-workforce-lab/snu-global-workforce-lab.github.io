@@ -102,7 +102,13 @@ author_profile: false
   background: rgba(128,128,128,0.10);
   margin-bottom: 10px;
 }
-
+  
+.alumni-info {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+  
 .alumni-name {
   font-weight: 800;
   margin: 0 0 2px 0;
