@@ -8,10 +8,11 @@
    sorted by the dependencies. Also, the first two lines of the file are required by Jekyll.
  */
 
-@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css");    "vendor/breakpoint/breakpoint",
-
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css");
 
 @import
+    "vendor/breakpoint/breakpoint",
+
     "themes",
     "theme/{{ site.site_theme | default: 'default' | append: '_light' }}",
     "theme/{{ site.site_theme | default: 'default' | append: '_dark' }}",
@@ -43,3 +44,9 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+
+/* ===== Global font override ===== */
+html, body, button, input, textarea, select {
+  font-family: "Pretendard", -apple-system, BlinkMacSystemFont,
+               "Segoe UI", Roboto, "Noto Sans KR", sans-serif;
+}
