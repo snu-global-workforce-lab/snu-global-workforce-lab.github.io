@@ -42,10 +42,13 @@ author_profile: false
 }
 
 .person-name-ko {
+  display: block;
   margin: 0 0 6px 0;
   font-size: 0.82rem;
   opacity: 0.78;
   line-height: 1.2;
+  font-family: "Pretendard", "Noto Sans KR", sans-serif;
+  color: inherit;
 }
 
 .person-role {
@@ -107,10 +110,13 @@ author_profile: false
 }
 
 .alumni-name-ko {
+  display: block;
   margin: 0 0 6px 0;
   font-size: 0.75rem;
   opacity: 0.76;
   line-height: 1.15;
+  font-family: "Pretendard", "Noto Sans KR", sans-serif;
+  color: inherit;
 }
 
 .alumni-affil {
@@ -121,10 +127,13 @@ author_profile: false
 }
 
 .alumni-affil-ko {
+  display: block;
   margin: 4px 0 0 0;
   font-size: 0.74rem;
   opacity: 0.74;
   line-height: 1.2;
+  font-family: "Pretendard", "Noto Sans KR", sans-serif;
+  color: inherit;
 }
 
 .alumni-tag {
