@@ -2,7 +2,7 @@
 title: "Research themes refreshed for 2026"
 date: 2026-02-10
 categories: [news]
-excerpt: "We updated our research themes for 2026."
+excerpt: We updated our research themes for 2026.
 teaser: /images/news/research-themes.jpeg
 author_profile: false
 ---
