@@ -98,8 +98,7 @@ author_profile: false
 
   <div style="font-size:0.92rem; opacity:0.85; line-height:1.65; margin-top:14px;">
     서울대학교 <strong>국제산업인력개발협력 연구실</strong>에 오신 것을 환영합니다.<br>
-    우리 연구실은 교육, 인력개발, 노동시장 변화에 대한 데이터 기반의 정량 연구를 수행합니다.<br>
-    연구 결과를 바탕으로 교육 정책 개혁과 국제개발협력에 기여하는 것이 우리의 목표입니다. 
+    우리 연구실은 교육, 인력개발, 노동시장 변화에 대한 데이터 기반의 정량 연구를 수행하여, 이를 바탕으로 교육 정책 개혁과 국제개발협력에 기여하는 것을 목표로 합니다. <br> 
   </div>
 </div>
 
@@ -107,7 +106,6 @@ author_profile: false
 <div style="max-width: 1200px; margin: 0 auto;">
   <h2 style="margin: 0 0 18px 0;">
     Research Themes
-    <div class="section-kr">연구 주제</div>
   </h2>
 
   <div class="research-grid">
