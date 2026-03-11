@@ -311,7 +311,7 @@ author_profile: false
   </div>
 
   <div class="alumni-card">
-    <img class="alumni-photo" src="{{ '/images/woman.png' | relative_url }}" alt="Jagyeong Park">
+    <img class="alumni-photo" src="{{ '/images/woman.png' | relative_url }}" alt="Jakyung Park">
     <div class="alumni-info">
       <div class="alumni-name">Jagyeong Park</div>
       <div class="alumni-name-ko">박자경</div>
@@ -344,7 +344,7 @@ author_profile: false
   </div>
 
   <div class="alumni-card">
-    <img class="alumni-photo" src="{{ '/images/woman.png' | relative_url }}" alt="Gwiyeong Ko">
+    <img class="alumni-photo" src="{{ '/images/woman.png' | relative_url }}" alt="Gwiyoung Ko">
     <div class="alumni-info">
       <div class="alumni-name">Gwiyeong Ko</div>
       <div class="alumni-name-ko">고귀영</div>
