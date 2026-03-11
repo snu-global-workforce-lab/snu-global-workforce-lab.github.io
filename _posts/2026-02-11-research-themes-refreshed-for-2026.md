@@ -7,6 +7,10 @@ teaser: /images/news/research-themes.jpeg
 author_profile: false
 ---
 
+<img src="{{ '/images/news/research-themes.jpeg' | relative_url }}"
+     alt="research themes for 2026"
+     style="width:100%; height:auto; border-radius:10px; margin: 10px 0 22px 0;">
+     
 We refreshed our lab research themes for 2026 to reflect current work and new collaborations.
 
 Our three core areas are:
