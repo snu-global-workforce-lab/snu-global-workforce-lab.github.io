@@ -8,7 +8,9 @@ header:
 author_profile: false
 ---
 
-![Master's Graduation 2026](images/news/2026-2-graduation.jpeg)
+<img src="{{ '/images/news/2026-2-graduation.jpeg' | relative_url }}"
+     alt="Master's Graduation 2026"
+     style="width:100%; height:auto; border-radius:10px; margin: 10px 0 22px 0;">
 
 We are delighted to celebrate the graduation of two master's students from the **SNU Global Workforce Development Lab** in **February 2026**.
 
