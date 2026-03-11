@@ -326,7 +326,7 @@ author_profile: false
     <div class="alumni-info">
       <div class="alumni-name">Seongji Jeong</div>
       <div class="alumni-name-ko">정성지</div>
-      <div class="alumni-affil">Pennsylvania State University</div>
+      <div class="alumni-affil">Penn State University</div>
       <div class="alumni-affil-ko">펜실베니아 주립대학교</div>
       <div class="alumni-tag">Ph.D.</div>
     </div>
