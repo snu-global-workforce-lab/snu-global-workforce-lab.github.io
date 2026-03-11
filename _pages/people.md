@@ -132,7 +132,7 @@ author_profile: false
 
 .alumni-affil {
   margin: 0;
-  font-size: 0.88rem;
+  font-size: 0.70rem;
   opacity: 0.85;
   line-height: 1.25;
   word-break: keep-all;
@@ -141,7 +141,7 @@ author_profile: false
 .alumni-affil-ko {
   display: block;
   margin: 2px 0 0 0;
-  font-size: 0.76rem;
+  font-size: 0.70rem;
   opacity: 0.74;
   line-height: 1.2;
   font-family: "Pretendard", "Noto Sans KR", sans-serif;
@@ -151,7 +151,7 @@ author_profile: false
 
 .alumni-tag {
   margin-top: 8px;
-  font-size: 0.74rem;
+  font-size: 0.80rem;
   opacity: 0.75;
 }
 </style>
