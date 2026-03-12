@@ -257,7 +257,7 @@ author_profile: false
 <div class="people-grid">
 
   <div class="person-card">
-    <img src="{{ '/images/man.png' | relative_url }}" alt="Jiyong Yun">
+    <img src="{{ '/images/jiyong.jpeg' | relative_url }}" alt="Jiyong Yun">
     <div class="person-name"><strong>Jiyong Yun</strong></div>
     <div class="person-name-ko">윤지용</div>
     <div class="person-role">Field Manager</div>
