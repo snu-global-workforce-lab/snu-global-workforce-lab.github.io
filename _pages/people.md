@@ -313,7 +313,7 @@ author_profile: false
   <div class="alumni-card">
     <img class="alumni-photo" src="{{ '/images/woman.png' | relative_url }}" alt="Jakyung Park">
     <div class="alumni-info">
-      <div class="alumni-name">Jagyeong Park</div>
+      <div class="alumni-name">Jakyung Park</div>
       <div class="alumni-name-ko">박자경</div>
       <div class="alumni-affil">Jeonbuk Research Institute</div>
       <div class="alumni-affil-ko">전북연구원</div>
@@ -355,7 +355,7 @@ author_profile: false
   </div>
 
   <div class="alumni-card">
-    <img class="alumni-photo" src="{{ '/images/woman.png' | relative_url }}" alt="Hyunju Yoo">
+    <img class="alumni-photo" src="{{ '/images/hyunju.png' | relative_url }}" alt="Hyunju Yoo">
     <div class="alumni-info">
       <div class="alumni-name">Hyunju Yoo</div>
       <div class="alumni-name-ko">유현주</div>
