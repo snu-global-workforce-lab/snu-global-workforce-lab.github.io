@@ -3,8 +3,7 @@ title: "Oral Presentation Accepted at ICSD 2026"
 date: 2026-03-25
 categories: [news]
 excerpt: "A presentation by Juwon Park and Prof. Sujung Choi has been accepted for oral presentation at ICSD 2026 in Rome, Italy."
-header:
-  teaser: /images/news/ICSD_2026.jpeg
+teaser: /images/news/ICSD_2026.jpeg
 author_profile: false
 ---
 
