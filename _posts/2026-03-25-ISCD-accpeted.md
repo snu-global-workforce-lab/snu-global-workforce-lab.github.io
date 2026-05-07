@@ -8,7 +8,7 @@ header:
 author_profile: false
 ---
 
-<img src="{{ '/images/news/ICSD.jpeg' | relative_url }}"
+<img src="{{ '/images/news/ ICSD.jpeg' | relative_url }}"
      alt="Oral Presentation Accepted at ICSD 2026"
      style="width:100%; height:auto; border-radius:10px; margin: 10px 0 22px 0;">
 
