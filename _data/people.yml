@@ -47,6 +47,10 @@ current:
         name_ko: "김동주"
         role: "Master's Student"
         image: "/images/man.png"
+      - name: "Cholong Yoon"
+        name_ko: "윤초롱"
+        role: "Ph.D. Candidate (Part-time)<br>Incheon Institute for Talent & Lifelong Education<br>인천인재평생교육진흥원"
+        image: "/images/woman.png"
 
   - heading: "Project Staff"
     members:
