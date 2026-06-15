@@ -131,6 +131,7 @@ alumni:
     image: "/images/jihyeon.jpeg"
   - name: "Jiyeon Kim"
     name_ko: "김지연"
-    affiliation: "Ph.D. Student"
+    affiliation: "Ph.D. Student, University of Georgia"
+    affiliation_ko: "미국 조지아대학교 박사과정"
     tag: "M.A."
     image: "/images/jiyeon1.jpeg"
