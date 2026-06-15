@@ -51,6 +51,18 @@ current:
         name_ko: "윤초롱"
         role: "Ph.D. Candidate<br>Incheon Institute for Talent & Lifelong Education<br>인천인재평생교육진흥원"
         image: "/images/woman.png"
+      - name: "Wooseok Kim"
+        name_ko: "김우석"
+        role: "Ph.D. Candidate<br>Dohow Consulting Co., Ltd.<br>두하우컨설팅 주식회사"
+        image: "/images/man.png"
+      - name: "Seonhee Jeong"
+        name_ko: "정선희"
+        role: "Ph.D. Student<br>Chungshin Girls' High School<br>정신여자고등학교"
+        image: "/images/woman.png"
+      - name: "Hyein Cho"
+        name_ko: "조혜인"
+        role: "Ph.D. Candidate"
+        image: "/images/woman.png"
 
   - heading: "Project Staff"
     members:
