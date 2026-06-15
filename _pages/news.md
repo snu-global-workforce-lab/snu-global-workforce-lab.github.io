@@ -95,10 +95,11 @@ author_profile: false
 
 <div class="news-grid">
 {% for post in news_posts limit:3 %}
+  {% assign teaser = post.header.teaser | default: post.teaser %}
   <div class="news-card">
-    {% if post.header.teaser %}
+    {% if teaser %}
       <a href="{{ post.url | relative_url }}">
-        <img class="news-thumb" src="{{ post.header.teaser | relative_url }}" alt="{{ post.title }}">
+        <img class="news-thumb" src="{{ teaser | relative_url }}" alt="{{ post.title }}">
       </a>
     {% endif %}
 
@@ -131,4 +132,3 @@ author_profile: false
     {% endfor %}
   </div>
 </details>
-

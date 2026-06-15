@@ -158,242 +158,37 @@ author_profile: false
 
 ## Current Members
 
-### Doctoral Researchers
+{% for group in site.data.people.current %}
+### {{ group.heading }}
 
 <div class="people-grid">
-
+{% for person in group.members %}
   <div class="person-card">
-    <img src="{{ '/images/heesu.jpeg' | relative_url }}" alt="Heesoo Yang">
-    <div class="person-name"><strong>Heesoo Yang</strong></div>
-    <div class="person-name-ko">양희수</div>
-    <div class="person-role">Ph.D. Candidate</div>
+    <img src="{{ person.image | relative_url }}" alt="{{ person.name }}">
+    <div class="person-name"><strong>{{ person.name }}</strong></div>
+    {% if person.name_ko %}<div class="person-name-ko">{{ person.name_ko }}</div>{% endif %}
+    <div class="person-role">{{ person.role }}</div>
   </div>
-
-  <div class="person-card">
-    <img src="{{ '/images/minwook.png' | relative_url }}" alt="Minwook Lee">
-    <div class="person-name"><strong>Minwook Lee</strong></div>
-    <div class="person-name-ko">이민욱</div>
-    <div class="person-role">Ph.D. Candidate</div>
-  </div>
-
-  <div class="person-card">
-    <img src="{{ '/images/yen.png' | relative_url }}" alt="Le Hai Yen">
-    <div class="person-name"><strong>Le Hai Yen</strong></div>
-    <div class="person-name-ko">옌</div>
-    <div class="person-role">Ph.D. Candidate</div>
-  </div>
-
-  <div class="person-card">
-    <img src="{{ '/images/seyoung.jpeg' | relative_url }}" alt="Seyoung Cho">
-    <div class="person-name"><strong>Seyoung Cho</strong></div>
-    <div class="person-name-ko">조세영</div>
-    <div class="person-role">Ph.D. Student</div>
-  </div>
-
-  <div class="person-card">
-    <img src="{{ '/images/juwon.jpeg' | relative_url }}" alt="Juwon Park">
-    <div class="person-name"><strong>Juwon Park</strong></div>
-    <div class="person-name-ko">박주원</div>
-    <div class="person-role">Ph.D. Student</div>
-  </div>
-
+{% endfor %}
 </div>
 
----
+{% unless forloop.last %}---{% endunless %}
 
-### Master’s Student
-
-<div class="people-grid">
-
-  <div class="person-card">
-    <img src="{{ '/images/ryul.jpeg' | relative_url }}" alt="Ryul Heo">
-    <div class="person-name"><strong>Ryul Heo</strong></div>
-    <div class="person-name-ko">허률</div>
-    <div class="person-role">Master's Student</div>
-  </div>
-
-</div>
-
----
-
-### Part-time Student
-
-<div class="people-grid">
-
-  <div class="person-card">
-    <img src="{{ '/images/woman.png' | relative_url }}" alt="Sula Kim">
-    <div class="person-name"><strong>Sula Kim</strong></div>
-    <div class="person-name-ko">김슬아</div>
-    <div class="person-role">Ph.D. Student<br>SK DND</div>
-  </div>
-
-  <div class="person-card">
-    <img src="{{ '/images/man.png' | relative_url }}" alt="Gohun Kim">
-    <div class="person-name"><strong>Gohun Kim</strong></div>
-    <div class="person-name-ko">김고헌</div>
-    <div class="person-role">Ph.D. Student<br>Dahawa Farm</div>
-  </div>
-
-  <div class="person-card">
-    <img src="{{ '/images/woman.png' | relative_url }}" alt="Jieun Park">
-    <div class="person-name"><strong>Jieun Park</strong></div>
-    <div class="person-name-ko">박지은</div>
-    <div class="person-role">Master's Student<br>농림수산식품교육문화정보원</div>
-  </div>
-
-  <div class="person-card">
-    <img src="{{ '/images/man.png' | relative_url }}" alt="Dongju Kim">
-    <div class="person-name"><strong>Dongju Kim</strong></div>
-    <div class="person-name-ko">김동주</div>
-    <div class="person-role">Master's Student</div>
-  </div>
-
-</div>
-
----
-
-### Project Staff
-
-<div class="people-grid">
-
-  <div class="person-card">
-    <img src="{{ '/images/jiyong.jpeg' | relative_url }}" alt="Jiyong Yun">
-    <div class="person-name"><strong>Jiyong Yun</strong></div>
-    <div class="person-name-ko">윤지용</div>
-    <div class="person-role">Field Manager</div>
-  </div>
-
-  <div class="person-card">
-    <img src="{{ '/images/eunji.jpeg' | relative_url }}" alt="Eunji Jang">
-    <div class="person-name"><strong>Eunji Jang</strong></div>
-    <div class="person-name-ko">장은지</div>
-    <div class="person-role">Project Staff</div>
-  </div>
-
-  <div class="person-card">
-    <img src="{{ '/images/youngjoo.jpeg' | relative_url }}" alt="Youngju Kwon">
-    <div class="person-name"><strong>Youngju Kwon</strong></div>
-    <div class="person-name-ko">권영주</div>
-    <div class="person-role">Project Staff</div>
-  </div>
-
-  <div class="person-card">
-    <img src="{{ '/images/hyunkyung.jpeg' | relative_url }}" alt="Hyunkyung Shin">
-    <div class="person-name"><strong>Hyunkyung Shin</strong></div>
-    <div class="person-name-ko">신현경</div>
-    <div class="person-role">Project Staff</div>
-  </div>
-
-  <div class="person-card">
-    <img src="{{ '/images/jinseon.png' | relative_url }}" alt="Jinseon Jeon">
-    <div class="person-name"><strong>Jinseon Jeon</strong></div>
-    <div class="person-name-ko">전진선</div>
-    <div class="person-role">Project Staff</div>
-  </div>
-
-</div>
-
----
+{% endfor %}
 
 ## Alumni
 
 <div class="alumni-grid">
-
+{% for person in site.data.people.alumni %}
   <div class="alumni-card">
-    <img class="alumni-photo" src="{{ '/images/woman.png' | relative_url }}" alt="Suhyun Bae">
+    <img class="alumni-photo" src="{{ person.image | relative_url }}" alt="{{ person.name }}">
     <div class="alumni-info">
-      <div class="alumni-name">Suhyun Bae</div>
-      <div class="alumni-name-ko">배수현</div>
-      <div class="alumni-affil">Samsung Electronics</div>
-      <div class="alumni-affil-ko">삼성전자</div>
-      <div class="alumni-tag">Ph.D.</div>
+      <div class="alumni-name">{{ person.name }}</div>
+      {% if person.name_ko %}<div class="alumni-name-ko">{{ person.name_ko }}</div>{% endif %}
+      {% if person.affiliation %}<div class="alumni-affil">{{ person.affiliation }}</div>{% endif %}
+      {% if person.affiliation_ko %}<div class="alumni-affil-ko">{{ person.affiliation_ko }}</div>{% endif %}
+      {% if person.tag %}<div class="alumni-tag">{{ person.tag }}</div>{% endif %}
     </div>
   </div>
-
-  <div class="alumni-card">
-    <img class="alumni-photo" src="{{ '/images/woman.png' | relative_url }}" alt="Jakyung Park">
-    <div class="alumni-info">
-      <div class="alumni-name">Jakyung Park</div>
-      <div class="alumni-name-ko">박자경</div>
-      <div class="alumni-affil">Jeonbuk Research Institute</div>
-      <div class="alumni-affil-ko">전북연구원</div>
-      <div class="alumni-tag">Ph.D.</div>
-    </div>
-  </div>
-
-  <div class="alumni-card">
-    <img class="alumni-photo" src="{{ '/images/woman.png' | relative_url }}" alt="Seongji Jeong">
-    <div class="alumni-info">
-      <div class="alumni-name">Seongji Jeong</div>
-      <div class="alumni-name-ko">정성지</div>
-      <div class="alumni-affil">Penn State University</div>
-      <div class="alumni-affil-ko">펜실베니아 주립대학교</div>
-      <div class="alumni-tag">Ph.D.</div>
-    </div>
-  </div>
-
-  <div class="alumni-card">
-    <img class="alumni-photo" src="{{ '/images/man.png' | relative_url }}" alt="Jisik Min">
-    <div class="alumni-info">
-      <div class="alumni-name">Jisik Min</div>
-      <div class="alumni-name-ko">민지식</div>
-      <div class="alumni-affil">Soonchunhyang University</div>
-      <div class="alumni-affil-ko">순천향대학교</div>
-      <div class="alumni-tag">Ph.D.</div>
-    </div>
-  </div>
-
-  <div class="alumni-card">
-    <img class="alumni-photo" src="{{ '/images/woman.png' | relative_url }}" alt="Gwiyoung Ko">
-    <div class="alumni-info">
-      <div class="alumni-name">Gwiyeong Ko</div>
-      <div class="alumni-name-ko">고귀영</div>
-      <div class="alumni-affil">Korea Foundation for Local Educational Administration</div>
-      <div class="alumni-affil-ko">한국지방교육행정연구재단</div>
-      <div class="alumni-tag">Ph.D.</div>
-    </div>
-  </div>
-
-  <div class="alumni-card">
-    <img class="alumni-photo" src="{{ '/images/hyunju.png' | relative_url }}" alt="Hyunju Yoo">
-    <div class="alumni-info">
-      <div class="alumni-name">Hyunju Yoo</div>
-      <div class="alumni-name-ko">유현주</div>
-      <div class="alumni-affil">Inha University</div>
-      <div class="alumni-affil-ko">인하대학교</div>
-      <div class="alumni-tag">Ph.D.</div>
-    </div>
-  </div>
-
-  <div class="alumni-card">
-    <img class="alumni-photo" src="{{ '/images/man.png' | relative_url }}" alt="Seokho Hong">
-    <div class="alumni-info">
-      <div class="alumni-name">Seokho Hong</div>
-      <div class="alumni-name-ko">홍석호</div>
-      <div class="alumni-affil">-</div>
-      <div class="alumni-tag">M.A.</div>
-    </div>
-  </div>
-
-  <div class="alumni-card">
-    <img class="alumni-photo" src="{{ '/images/jihyeon.jpeg' | relative_url }}" alt="Jihyeon An">
-    <div class="alumni-info">
-      <div class="alumni-name">Jihyeon An</div>
-      <div class="alumni-name-ko">안지현</div>
-      <div class="alumni-affil">Konkuk University</div>
-      <div class="alumni-affil-ko">건국대학교</div>
-      <div class="alumni-tag">M.A.</div>
-    </div>
-  </div>
-
-  <div class="alumni-card">
-    <img class="alumni-photo" src="{{ '/images/jiyeon1.jpeg' | relative_url }}" alt="Jiyeon Kim">
-    <div class="alumni-info">
-      <div class="alumni-name">Jiyeon Kim</div>
-      <div class="alumni-name-ko">김지연</div>
-      <div class="alumni-affil">Ph.D. Student</div>
-      <div class="alumni-tag">M.A.</div>
-    </div>
-  </div>
-
+{% endfor %}
 </div>
