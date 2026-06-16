@@ -9,7 +9,7 @@ teaser: /images/news/2026-05-22-co-hosted-2026-kaiae-annual-conference-with-koic
 author_profile: false
 ---
 
-<img src="{{ "/images/news/2026-05-22-co-hosted-2026-kaiae-annual-conference-with-koica-1.jpeg" | relative_url }}" alt="Co-hosted 2026 KAIAE Annual Conference with KOICA" style="width:100%; height:auto; border-radius:10px; margin: 10px 0 22px 0;">
+<img src="{{ '/images/news/2026-05-22-co-hosted-2026-kaiae-annual-conference-with-koica-1.jpeg' | relative_url }}" alt="Co-hosted 2026 KAIAE Annual Conference with KOICA" style="width:100%; height:auto; border-radius:10px; margin: 10px 0 22px 0;">
 
 2026년 5월 22일, **2026년 한국 농산업교육학회 정기학술대회**가 **KOICA**와 공동으로 **서울대학교 호암교수회관**에서 개최되었습니다.
 
@@ -27,4 +27,4 @@ We were also happy to welcome distinguished guests, including the Vice President
 
 Our lab member **Yen** also shared her research plan for the **Vietnam validation of the LLWI**, adding another thoughtful piece to the conversation between Korean and Vietnamese researchers.
 
-<img src="{{ "/images/news/2026-05-22-co-hosted-2026-kaiae-annual-conference-with-koica-2.jpeg" | relative_url }}" alt="Co-hosted 2026 KAIAE Annual Conference with KOICA" style="width:100%; height:auto; border-radius:10px; margin: 24px 0 22px 0;">
+<img src="{{ '/images/news/2026-05-22-co-hosted-2026-kaiae-annual-conference-with-koica-2.jpeg' | relative_url }}" alt="Co-hosted 2026 KAIAE Annual Conference with KOICA" style="width:100%; height:auto; border-radius:10px; margin: 24px 0 22px 0;">

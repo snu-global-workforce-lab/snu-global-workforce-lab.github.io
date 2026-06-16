@@ -88,7 +88,7 @@ def download_image_urls(image_urls, date, slug):
 
 def image_tag(image_url, title, top_margin="10px"):
     return (
-        f'<img src="{{{{ {yaml_string(image_url)} | relative_url }}}}" '
+        f'<img src="{{{{ \'{image_url}\' | relative_url }}}}" '
         f'alt="{title}" '
         f'style="width:100%; height:auto; border-radius:10px; margin: {top_margin} 0 22px 0;">'
     )
